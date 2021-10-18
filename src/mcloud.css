@@ -1,0 +1,26 @@
+.img {
+  background-image: url("images/imgcloud.png");
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 30px;
+  left: 0px;
+  overflow: hidden;
+}
+.bande {
+  background-color: #8a4405;
+  height: 50px;
+
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.back {
+  background-color: grey;
+}

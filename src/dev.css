@@ -1,0 +1,9 @@
+p {
+  font-size: larger;
+}
+
+.body1 {
+  background-image: url("images/dev2.png");
+
+  width: 100%;
+}

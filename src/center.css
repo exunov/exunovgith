@@ -1,0 +1,61 @@
+.back {
+  outline: 2px soilid black;
+  background-image: url("images/securite.png");
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+}
+
+.debut {
+  background-color: #fafafa;
+}
+
+.body {
+  background-image: url("images/securite.png");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+}
+
+.body1 {
+  outline: 2px soilid black;
+  background-image: url("images/mobile.png");
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+}
+
+.home {
+  background-image: url("images/Group12.png");
+  background-color: black;
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+}
+
+.mobile {
+  background-image: url("src/images/mobile.jpg");
+
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+}
+.product {
+  background-image: url("src/images/product.png");
+
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+}
