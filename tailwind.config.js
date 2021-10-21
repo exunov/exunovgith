@@ -9,7 +9,7 @@ module.exports = {
 
         "dev2-img": "url('src/images/dev2.png')",
         "mobidev-img": "url('src/images/mobidev.jpg')",
-        "prod-img": "url('src/images/prod.png')",
+        "prod-img": "url('src/images/prod.jpg')",
         "contact-img": "url('src/images/contact.jpg')",
       }),
     },

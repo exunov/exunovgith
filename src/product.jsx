@@ -28,7 +28,7 @@ function Product() {
 
 function Body() {
   return (
-    <div className=" hover:bg- md:(p-30 h-130) product ">
+    <div className="  md:(p-30 h-130) bg-prod-img ">
       <div className="space-y-5 p-15 ">
         <h1 className="font-bold text-light-200 md:(text-5xl) ">Product</h1>
         <p className=" md:(text-3xl text-light-100)  hover:text-black">
@@ -98,6 +98,26 @@ function Body2() {
               against current and future cyber threats
             </p>
           </div>
+          <h2 className=" font-bold md:(text-3xl)">UEM </h2>
+          <div className="flex flex-col  border-b-4 border-b-yellow-600 md:(flex flex-row  space-x-5) ">
+            <p className="p-2 text-sm md:(text-xl py-20 font-thin font-semibold)">
+              {" "}
+              BlackBerry UEM securely enables the Internet of Things with
+              complete endpoint management and policy control for your control
+              for your diverse and growing fleet of devices and devices and
+              applications. With its single management console and reliable
+              end-to-end security. BlackBerry UEM provides flexibility and
+              security to keep your employees connected and protected so they
+              can work from virtually any device, anywhere
+            </p>
+
+            <img
+              src={black1}
+              alt=""
+              className="h-80 w-full md:(w-150 h-100 py-5) "
+            />
+          </div>
+
           <h2 className=" font-bold md:(text-3xl)">UEM </h2>
           <div className="flex flex-col  border-b-4 border-b-yellow-600 md:(flex flex-row  space-x-5) ">
             <p className="p-2 text-sm md:(text-xl py-20 font-thin font-semibold)">

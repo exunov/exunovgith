@@ -27,7 +27,6 @@
   overflow: hidden;
 }
 .foot1 {
-  background-color: #fafafa;
 }
 .foot2 {
   background-color: #f6ad35;
@@ -166,7 +165,7 @@
 }
 
 .home {
-  background-image: url("images/dev2.png");
+  background-image: url("dist/assets/dev2.9641780a.jpg");
   background-color: black;
   background-size: cover;
   height: 400px;

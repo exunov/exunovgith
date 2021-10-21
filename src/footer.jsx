@@ -10,7 +10,28 @@ import "./sectio.css";
 
 function Footer() {
   return (
-    <div className="foot1 pt-10 border-3 mt-5 ">
+    <div className=" pt-10 border-3 mt-5 flex flex-col space-y-5 ">
+      <div className="flex flex-row ml-20 md:(justify-center items-center)">
+        {" "}
+        <div className="md:(flex flex-row  w-200 ) grid grid-cols-2">
+          <input
+            placeholder="search"
+            type="text"
+            className="bg-gray-400 rounded-l-2xl  placeholder-white md:(text-2xl w-full rounded-l-2xl h-15 focus:outline-none  border border-gray-300)   "
+          />
+          <div className="md:(hidden) bg-amber-400 rounded-r-2xl text-white w-10 h-10 text-2xl">
+            {" "}
+            <Iconsearch />
+          </div>
+          <button
+            type="submit"
+            className="hidden bg-amber-400 md:(flex rounded-r-2xl text-white w-40 h-15 text-2xl) "
+          >
+            <Iconsearch />
+          </button>
+        </div>
+      </div>
+
       <div class="md:(grid grid-cols-4 divide-x-3 divide-yellow-400 px-30) grid grid-cols-2 divide-x-3 divide-yellow-500 gap-18">
         <div className="flex space-y-3 flex-col p-2 md:()">
           <img src={Exu} alt="" className="h-30 w-30" />
@@ -120,6 +141,25 @@ function Footer() {
         </h2>
       </div>
     </div>
+  );
+}
+
+function Iconsearch() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-6 mt-2 md:(w-12 ml-15)"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+      />
+    </svg>
   );
 }
 export default Footer;
