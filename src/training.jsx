@@ -48,7 +48,7 @@ function Formation() {
   return (
     <div className="flex flex-col md:(grid grid-cols-3 gap-8 px-40 ) space-y-5 p-5  mt-20">
       <div className="rounded-xl p-8 shadow-2xl ">
-        <img src={council} alt="" className=" w-35 mx-15 md:(w-30 mx-30)" />
+        <img src={council} alt="" className=" w-35 mx-15 md:(w-30)" />
         <div className="divide-y-4 divide-yellow-400 space-y-2 ">
           <h1 className="font-bold text-xl text-center  md:(text-3xl p-y-1)">
             EC-COUNCIL
@@ -62,7 +62,7 @@ function Formation() {
       </div>
 
       <div className="rounded-xl p-8 shadow-2xl ">
-        <img src={isaca} alt="" className="py-9  md:(w-50 mx-20 py-9)" />
+        <img src={isaca} alt="" className="py-9  md:(w-50 py-9)" />
         <div className="divide-y-4 divide-yellow-400 space-y-2 ">
           <h1 className="font-bold text-xl text-center  md:(text-3xl p-y-1)">
             ISACA
@@ -75,7 +75,7 @@ function Formation() {
       </div>
 
       <div className="rounded-xl p-8 shadow-2xl ">
-        <img src={comptia} alt="" className="w-40 mx-10  md:(w-37 mx-25  )" />
+        <img src={comptia} alt="" className="w-40 mx-10  md:(w-37  )" />
         <div className="divide-y-4 divide-yellow-400 space-y-2 ">
           <h1 className="font-bold text-xl text-center  md:(text-3xl p-y-1)">
             COMPTIA
@@ -88,11 +88,7 @@ function Formation() {
       </div>
 
       <div className="rounded-xl p-8 shadow-2xl ">
-        <img
-          src={axelos}
-          alt=""
-          className="py-10 mx-10 md:(w-60 mx-20 py-10 )"
-        />
+        <img src={axelos} alt="" className="py-10 mx-10 md:(w-40 py-10 )" />
         <div className="divide-y-4 divide-yellow-400 space-y-3 ">
           <h1 className="font-bold text-xl text-center mt-2 md:(text-3xl p-y-1)">
             AXELOS
@@ -104,11 +100,7 @@ function Formation() {
         </div>
       </div>
       <div className="rounded-xl p-8 shadow-2xl ">
-        <img
-          src={microsoft}
-          alt=""
-          className="py-8 mx-8 md:(w-40 mx-25 py-5 )"
-        />
+        <img src={microsoft} alt="" className="py-8 mx-8 md:(w-40 py-5 )" />
         <div className="divide-y-4 divide-yellow-400 space-y-2 ">
           <h1 className="font-bold text-xl text-center  md:(text-3xl p-y-1)">
             MCSA
@@ -121,7 +113,7 @@ function Formation() {
       </div>
 
       <div className="rounded-xl p-8 shadow-2xl ">
-        <img src={linux} alt="" className=" mx-8 md:(w-40 mx-25 py-3 )" />
+        <img src={linux} alt="" className=" mx-8 md:(w-40 py-3 )" />
         <div className="divide-y-4 divide-yellow-400 space-y-2 ">
           <h1 className="font-bold text-xl text-center  md:(text-3xl p-y-1)">
             LINUX
@@ -134,11 +126,7 @@ function Formation() {
       </div>
 
       <div className="rounded-xl p-8 shadow-2xl ">
-        <img
-          src={vmware}
-          alt=""
-          className=" w-35 mx-12  md:(w-30 mx-30 py-3 )"
-        />
+        <img src={vmware} alt="" className=" w-35 mx-12  md:(w-30 py-3 )" />
         <div className="divide-y-4 divide-yellow-400 space-y-2 ">
           <h1 className="font-bold text-xl text-center mt-2  md:(text-3xl p-y-1)">
             VMWARE
@@ -151,7 +139,7 @@ function Formation() {
       </div>
 
       <div className="rounded-xl p-8 shadow-2xl ">
-        <img src={iso} alt="" className="w-35 mx-15  md:(w-30 mx-30 py-3 )" />
+        <img src={iso} alt="" className="w-35 mx-15  md:(w-30 py-3 )" />
         <div className="divide-y-4 divide-yellow-400 space-y-2 ">
           <h1 className="font-bold text-xl text-center mt-2  md:(text-3xl p-y-1)">
             ISO-275005
@@ -164,7 +152,7 @@ function Formation() {
       </div>
 
       <div className="rounded-xl p-8 shadow-2xl md:() ">
-        <img src={fortinet} alt="" className="mx-10 md:( mx-20 py-1 )" />
+        <img src={fortinet} alt="" className="mx-10 md:( py-1 )" />
         <div className="divide-y-4 divide-yellow-400 space-y-2 ">
           <h1 className="font-bold text-xl text-center  md:(text-3xl p-y-1)">
             FORTINET

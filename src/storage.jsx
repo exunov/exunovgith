@@ -116,7 +116,7 @@ function Body2() {
             management solutions we offer are the best fit for your
             organization.{" "}
           </p>
-          <ul className="list-none mt-6 space-y-4 font-thin text-xl p-5 px-10 md:(mx-20)">
+          <ul className="list-none mt-6 space-y-4 font-thin text-xl p-5 px-10 md:(mx-50)">
             <div className="flex space-x-3 ">
               <Puce />
               <li className="">24x7x365 monitoring and alerting</li>

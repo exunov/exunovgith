@@ -28,7 +28,7 @@ function Contactus() {
 
 function Body() {
   return (
-    <div className="bg-contact-img bg-cover  md:(py-5)">
+    <div className="bg-Group12-img bg-cover  md:(py-5)">
       <div className="text-light-100 space-y-5 p-3  md:( p-30)">
         <h1 className="text-4xl font-bold md:(text-5xl)"> Contact</h1>
         <p className="md:(text-2xl)">
@@ -46,13 +46,13 @@ function Puce() {
 
 function Formulaire() {
   return (
-    <div className="flex flex-col   mt-8 border-4  rounded-2xl p-2 md:(mx-80 )">
+    <div className="flex flex-col   mt-8 border-4  rounded-2xl p-2 md:(mx-70 w-200 )">
       <form action="" className=" ">
         <h1 className="text-center  font-bold text-2xl md:( text-3xl underline) ">
           Started
         </h1>
 
-        <div className="flex flex-col space-y-3  justify-center items-center md:(grid grid-cols-2 p-5 gap-6 text-2xl)">
+        <div className="flex flex-col space-y-3  justify-center items-center md:(grid grid-cols-2 p-5 gap-6 text-xl)">
           <div className="  mt-3">
             <label htmlFor="" className="flex font-semibold ">
               First name
@@ -109,7 +109,7 @@ function Formulaire() {
           </div>
         </div>
       </form>
-      <div className=" flex flex-col space-y-5 font-semibold md:(px-10 text-xl)">
+      <div className=" flex flex-col space-y-5 font-semibold md:(px-10 )">
         <p className="text-semibold   p-2 ">
           By submitting this form, you agree to the use of your personal data by
           exunov as described in the privacy statement.
@@ -130,7 +130,7 @@ function Formulaire() {
         </div>
         <button
           type="submit"
-          className=" bg-yellow-600 font-bold text-black border-2 rounded-lg h-10   hover:(bg-amber-400) md:(text-3xl bg-white text-dark-100  w-70 h-15 ml-55 ) "
+          className=" bg-yellow-600 font-bold text-black border-2 rounded-lg h-10   hover:(bg-amber-400) md:(text-3xl bg-white text-dark-100  w-70 h-15 ml-40 ) "
         >
           Submit
         </button>
@@ -191,7 +191,7 @@ function Drapeau() {
       </h1>
 
       <div className="md:(grid grid-cols-3 divide-x-3 divide-amber-500 space-x-5 p-3 )">
-        <div className="flex flex-col space-y-10 p-5 ">
+        <div className="flex flex-col space-y-10 p-4 ">
           <div className="flex flex-row space-x-2 justify-center items-center">
             <img src={drapeau1} alt="" className="w-20" />
             <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-2xl) ">
@@ -204,7 +204,7 @@ function Drapeau() {
             <p className=" md:(text-xl)">Cotonou</p>
           </div>
 
-          <div className="flex flex-row space-x-10">
+          <div className="flex flex-row ">
             <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
             <p className=" md:(text-xl)">+229 99 54 59 59</p>
           </div>
@@ -223,7 +223,7 @@ function Drapeau() {
             <p className=" md:(text-xl)">Abidjan</p>
           </div>
 
-          <div className="flex flex-row space-x-10">
+          <div className="flex flex-row ">
             <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
             <p className=" md:(text-xl)"></p>
           </div>
@@ -242,7 +242,7 @@ function Drapeau() {
             <p className=" md:(text-xl)">Accra</p>
           </div>
 
-          <div className="flex flex-row space-x-10">
+          <div className="flex flex-row ">
             <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
             <p className=" md:(text-xl)"></p>
           </div>
@@ -250,7 +250,7 @@ function Drapeau() {
       </div>
 
       <div className="md:(grid grid-cols-3 divide-x-3 divide-amber-500 space-x-5)">
-        <div className="flex flex-col space-y-10 p-5">
+        <div className="flex flex-col space-y-10 p-4">
           <div className="flex flex-row space-x-2 justify-center items-center">
             <img src={drapeau4} alt="" className="w-20" />
             <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-2xl) ">
@@ -263,7 +263,7 @@ function Drapeau() {
             <p className=" md:(text-xl)">Dakar</p>
           </div>
 
-          <div className="flex flex-row space-x-10">
+          <div className="flex flex-row ">
             <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
             <p className=" md:(text-xl)">+229 99 54 59 59</p>
           </div>
@@ -282,7 +282,7 @@ function Drapeau() {
             <p className=" md:(text-xl)">Paris</p>
           </div>
 
-          <div className="flex flex-row space-x-10">
+          <div className="flex flex-row ">
             <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
             <p className=" md:(text-xl)"></p>
           </div>
@@ -301,7 +301,7 @@ function Drapeau() {
             <p className=" md:(text-xl)">New York</p>
           </div>
 
-          <div className="flex flex-row space-x-10">
+          <div className="flex flex-row ">
             <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
             <p className=" md:(text-xl)"></p>
           </div>

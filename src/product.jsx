@@ -16,12 +16,11 @@ function Product() {
     <div>
       <Headertop />
       <Head />
-      <div className="clear-both">
-        <Body />
-        <Body2 />
-        <Cadrechild />
-        <Footer />
-      </div>
+
+      <Body />
+      <Body2 />
+      <Cadrechild />
+      <Footer />
     </div>
   );
 }
@@ -46,15 +45,15 @@ function Body2() {
     <div className="flex flex-col  md:(px-40 mt-5) ">
       <h1 className="font-bold text-center md:(text-4xl)">Our Product</h1>
       <div className="justify-center items-center p-10">
-        <div className="flex flex-col space-y-3 text-justify ">
+        <div className="flex flex-col space-y-3">
           <h2 className=" font-bold md:(text-3xl)">Falcongaze Secure Tower </h2>
           <div className="flex flex-col  border-b-4 border-b-yellow-600 md:(flex flex-row  space-x-5) ">
             <img
               src={dataloss}
               alt=""
-              className="h-80 w-full md:(w-150 h-100 py-5) "
+              className="h-80 w-full md:(w-100 h-100 py-5) "
             />
-            <p className="p-2 text-sm md:(text-xl py-20 font-thin font-semibold)">
+            <p className="p-2 text-sm md:(text-xl  font-thin font-semibold)">
               {" "}
               A Data Leak Prevention (DLP) system is a system that that prevents
               confidential information from leaking out of from leaking from the
@@ -63,9 +62,26 @@ function Body2() {
             </p>
           </div>
 
-          <h2 className=" font-bold md:(text-3xl)">Fortigate </h2>
+          <h2 className=" font-bold md:(text-3xl)">UES BlackBerry </h2>
           <div className="flex flex-col  border-b-4 border-b-yellow-600 md:(flex flex-row  space-x-5) ">
-            <p className="p-2 text-sm md:(text-xl py-20 font-thin font-semibold float-right)">
+            <img
+              src={black}
+              alt=""
+              className="h-80 w-full md:(w-100 h-100 py-5) "
+            />
+            <p className="p-2 text-sm md:(text-xl py-20 font-thin font-semibold)">
+              {" "}
+              it allows you to protect your organization with a modern modern
+              Unified Endpoint Security (UES) solution. Our end-to-end approach
+              to cybersecurity is deeply rooted in Cylance's artificial
+              intelligence (AI) and machine (AI) and machine learning (ML),
+              providing enhanced visibility and visibility and protection
+              against current and future cyber threats
+            </p>
+          </div>
+          <h2 className=" font-bold md:(text-3xl)">Fortigate</h2>
+          <div className="flex flex-col  border-b-4 border-b-yellow-600 md:(flex flex-row  space-x-5) ">
+            <p className="p-2 text-sm md:(text-xl py-20 font-thin font-semibold)">
               {" "}
               FortiGate next-generation firewalls accompany the digital
               transformation of companies by protecting all network edges and
@@ -78,43 +94,7 @@ function Body2() {
             <img
               src={fortigate}
               alt=""
-              className="h-80 w-full md:(w-150 h-100 py-5 float-left) "
-            />
-          </div>
-          <h2 className=" font-bold md:(text-3xl)">UES BlackBerry </h2>
-          <div className="flex flex-col  border-b-4 border-b-yellow-600 md:(flex flex-row  space-x-5) ">
-            <img
-              src={black}
-              alt=""
-              className="h-80 w-full md:(w-150 h-100 py-5) "
-            />
-            <p className="p-2 text-sm md:(text-xl py-20 font-thin font-semibold)">
-              {" "}
-              it allows you to protect your organization with a modern modern
-              Unified Endpoint Security (UES) solution. Our end-to-end approach
-              to cybersecurity is deeply rooted in Cylance's artificial
-              intelligence (AI) and machine (AI) and machine learning (ML),
-              providing enhanced visibility and visibility and protection
-              against current and future cyber threats
-            </p>
-          </div>
-          <h2 className=" font-bold md:(text-3xl)">UEM </h2>
-          <div className="flex flex-col  border-b-4 border-b-yellow-600 md:(flex flex-row  space-x-5) ">
-            <p className="p-2 text-sm md:(text-xl py-20 font-thin font-semibold)">
-              {" "}
-              BlackBerry UEM securely enables the Internet of Things with
-              complete endpoint management and policy control for your control
-              for your diverse and growing fleet of devices and devices and
-              applications. With its single management console and reliable
-              end-to-end security. BlackBerry UEM provides flexibility and
-              security to keep your employees connected and protected so they
-              can work from virtually any device, anywhere
-            </p>
-
-            <img
-              src={black1}
-              alt=""
-              className="h-80 w-full md:(w-150 h-100 py-5) "
+              className="h-80 w-full md:(w-100 h-100 py-5) "
             />
           </div>
 
@@ -134,7 +114,7 @@ function Body2() {
             <img
               src={black1}
               alt=""
-              className="h-80 w-full md:(w-150 h-100 py-5) "
+              className="h-80 w-full md:(w-100 h-100 py-5) "
             />
           </div>
           <h2 className=" font-bold md:(text-3xl)">SD WAN </h2>
@@ -142,7 +122,7 @@ function Body2() {
             <img
               src={sd}
               alt=""
-              className="h-80 w-full md:(w-150 h-100 py-5) "
+              className="h-80 w-full md:(w-100 h-100 py-5) "
             />
             <p className="p-2 text-sm md:(text-xl py-20 font-thin font-semibold)">
               {" "}
@@ -169,7 +149,7 @@ function Body2() {
             <img
               src={zero}
               alt=""
-              className="h-80 w-full md:(w-150 h-100 text-right py-5) "
+              className="h-80 w-full md:(w-100 h-100 text-right py-5) "
             />
           </div>
         </div>
