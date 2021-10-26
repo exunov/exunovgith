@@ -5,15 +5,19 @@ import "./contact.css";
 import quote1 from "./images/Group6.png";
 import Footer from "./footer";
 
+import Carouse from "./component/slider";
+
 function Exunov() {
   return (
-    <div>
+    <div className="space-y-10">
       <Headertop />
       <Head />
       <Body />
       <Formulaire />
+      <div className="mt-10">
+        <Carouse />
+      </div>
 
-      <Cadrechild />
       <Footer />
     </div>
   );
@@ -21,7 +25,7 @@ function Exunov() {
 
 function Body() {
   return (
-    <div className="bg-contact-img bg-cover md:(py-5)">
+    <div className="bg-contact-img bg-cover md:(p-20)">
       <div className="text-light-100 space-y-5 p-3  md:(p-15)">
         <h1 className="text-4xl font-bold md:(text-5xl italic)">
           {" "}
@@ -43,15 +47,15 @@ function Puce() {
 
 function Formulaire() {
   return (
-    <div className="flex flex-col shadow-2xl  bg-yellow-800 mt-8 border-1 rounded-2xl p-2 md:(mx-80 )">
+    <div className="flex flex-col shadow-2xl   mt-8 border-1 rounded-2xl p-2 md:(mx-80 )">
       <form action="" className=" ">
-        <h1 className="text-center text-light-100 font-bold text-2xl md:( text-3xl underline) ">
+        <h1 className="text-center  font-bold text-2xl md:( text-4xl mt-5 underline) ">
           Request a quote
         </h1>
 
-        <div className="flex flex-col space-y-3  justify-center items-center md:(grid grid-cols-2 p-5 gap-6 text-2xl italic font-thin)">
+        <div className="flex flex-col space-y-3  justify-center items-center md:(grid grid-cols-2 p-5 gap-6  italic text-black)">
           <div className="  mt-3">
-            <label htmlFor="" className="flex text-light-100">
+            <label htmlFor="" className="flex ">
               Name
               <Puce />
             </label>
@@ -62,7 +66,7 @@ function Formulaire() {
           </div>
 
           <div>
-            <label htmlFor="" className="flex text-light-100">
+            <label htmlFor="" className="flex">
               Surname
               <Puce />
             </label>
@@ -73,7 +77,7 @@ function Formulaire() {
           </div>
 
           <div>
-            <label htmlFor="" className="flex text-light-100">
+            <label htmlFor="" className="flex ">
               Phone
               <Puce />
             </label>
@@ -84,7 +88,7 @@ function Formulaire() {
           </div>
 
           <div>
-            <label htmlFor="" className="flex text-light-100">
+            <label htmlFor="" className="flex">
               Country
               <Puce />
             </label>
@@ -95,7 +99,7 @@ function Formulaire() {
           </div>
 
           <div className="">
-            <label htmlFor="" className="flex text-light-100">
+            <label htmlFor="" className="flex">
               Message
               <Puce />
             </label>
@@ -106,8 +110,8 @@ function Formulaire() {
           </div>
         </div>
       </form>
-      <div className=" flex flex-col space-y-5 md:(px-10 text-xl)">
-        <p className="text-semibold text-white  p-2 ">
+      <div className=" flex flex-col space-y-5 md:(px-10)">
+        <p className="text-semibold  p-2 ">
           By submitting this form, you agree to the use of your personal data by
           exunov as described in the privacy statement.
         </p>
@@ -120,7 +124,7 @@ function Formulaire() {
             value=""
             className="h-6 w-6 mt-5"
           />
-          <label for="" className="text-white">
+          <label for="">
             I have read the privacy policy and I authorize Exunov to send me
             information
           </label>

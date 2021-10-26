@@ -46,14 +46,14 @@ function Body1() {
       <h2 className="font-bold text-center text-xl md:(text-3xl) underline">
         MORE SERVICES
       </h2>
-      <p className="text-center text-sm md:(text-xl)">
+      <p className="text-center text-sm md:(text-xl text-center text-justify)">
         In addition to the above services, our software development team is
         proficent in developing application in different language platforms.
         Some of them include.
       </p>
-      <div className="  font-semibold font-thin italic md:(flex flex-row divide-x-4 space-x-5  divide-yellow-400  text-2xl py-5 place-items-center justify-center )">
-        <div className="md:(px-5)">
-          <ul className="md:(space-y-2 mt-5) ">
+      <div className="  font-semibold italic md:(flex flex-row divide-x-4 space-x-5  divide-yellow-400  text-xl py-5 place-items-center justify-center )">
+        <div className=" mt-5">
+          <ul className="space-y-2 ">
             <div className="flex space-x-4">
               <Puce />
               <li>Respond to native development</li>
@@ -75,25 +75,25 @@ function Body1() {
             </div>
 
             <div className="flex space-x-4">
-              <Puce /> <li>Ionic mobile application development</li>
-            </div>
-
-            <div className="flex space-x-4">
-              <Puce /> <li>Apple Watch application development</li>
-            </div>
-
-            <div className="flex space-x-4">
               <Puce /> <li>Arabic application development</li>
             </div>
 
             <div className="flex space-x-4">
               <Puce /> <li>IPad application development</li>
             </div>
+
+            <div className="flex space-x-4">
+              <Puce /> <li>Ionic mobile application development</li>
+            </div>
+
+            <div className="flex space-x-4">
+              <Puce /> <li>Apple Watch application development</li>
+            </div>
           </ul>
         </div>
 
-        <div className="md:(px-5)">
-          <ul className=" space-y-2 md:(space-y-2 mt-5) ">
+        <div className="">
+          <ul className=" space-y-2 ">
             <div className="flex space-x-4">
               <Puce /> <li>Progressive development</li>
             </div>
@@ -132,8 +132,8 @@ function Body1() {
           </ul>
         </div>
 
-        <div className="md:(px-5)">
-          <ul className=" space-y-2 md:(space-y-2 mt-5) ">
+        <div className="">
+          <ul className=" space-y-2 ">
             <div className="flex space-x-4">
               <Puce /> <li>HTML5 mobile application development</li>
             </div>

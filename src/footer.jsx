@@ -10,7 +10,7 @@ import "./sectio.css";
 
 function Footer() {
   return (
-    <div className=" pt-10 border-3 mt-5 flex flex-col space-y-5 ">
+    <div className=" pt-10 border-3 mt-5 flex flex-col space-y-5  ">
       <div className="flex flex-row ml-20 md:(justify-center items-center)">
         {" "}
         <div className="md:(flex flex-row  w-200 ) grid grid-cols-2">
@@ -36,12 +36,12 @@ function Footer() {
         <div className="flex space-y-3 flex-col p-2 md:()">
           <img src={Exu} alt="" className="h-30 w-30" />
           <div className="flex flex-row space-x-3 pl-2 ">
-            <img src={linked} alt="" className=" w-6 " />
+            <img src={linked} alt="" className=" w-4 " />
 
             <Link to="/contact_us">
-              <img src={facebook} alt="" className=" w-10 " />
+              <img src={facebook} alt="" className=" w-6 " />
             </Link>
-            <img src={tel} alt="" className=" w-6 " />
+            <img src={tel} alt="" className=" w-4 " />
           </div>
 
           <div className="flex flex-row  md:(flex flex-row space-x-3)">
