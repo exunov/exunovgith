@@ -21,6 +21,7 @@ import Data from "./data";
 import Contactus from "./contact_us";
 import Exunov from "./Exunov";
 import Azure from "./azure";
+import Office from "./office";
 import Mdetection from "./mdetection";
 import Cyberpro from "./cyberpro";
 import Cvm from "./cvm";
@@ -103,6 +104,9 @@ function App() {
 
           <Route exact path="/azure">
             <Azure />
+          </Route>
+          <Route exact path="/office">
+            <Office />
           </Route>
 
           <Route exact path="/mdetection">

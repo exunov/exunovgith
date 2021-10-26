@@ -20,10 +20,12 @@ function Mobile() {
 function Body() {
   return (
     <div>
+      
       <Headertop />
       <Head />
+      
 
-      <div className=" mobile  text-light-100 md:(p-40 ) p-8 space-y-5 transform transition-all  ">
+      <div className="mobile  text-light-100 md:(p-40 ) p-8 space-y-5 transform transition-all  ">
         <h1 className="font-bold text-xl md:(text-5xl)">
           Outsource custom software development
         </h1>
