@@ -31,12 +31,15 @@ function Devweb() {
 function Body() {
   return (
     <div>
-      <div className=" home bg-cover p-10 space-y-5  md:(h-110 ) ">
-        <p className="space-y-2 text-white text-left md:( text-left p-30 space-y-3 )">
+      <div className=" web md:(p-40 h-full ) p-10 space-y-5 ">
+        <p className="space-y-2 text-white text-left md:(space-y-8 )">
           <h1 className="font-bold text-xl md:(text-5xl)">
-            Outsource custom software development
+            <marquee behavior="" direction="">
+              {" "}
+              Outsource custom software development
+            </marquee>
           </h1>
-          <p className=" text-sm md:(text-2xl )">
+          <p className=" text-sm md:(text-3xl ) italic">
             Exunov with a team of experienced software developers and
             programers,
             <br />

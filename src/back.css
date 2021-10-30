@@ -1,0 +1,37 @@
+.home {
+  background-image: url("images/Group12.png");
+
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+}
+
+.web {
+  background-image: url("images/dev.png");
+
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+}
+
+.mobile {
+  background-image: url("images/mobilet.jpg");
+  background-size: cover;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+}
+.product {
+  background-image: url("src/images/prod.png");
+
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+}

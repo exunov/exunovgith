@@ -28,7 +28,7 @@ import Cvm from "./cvm";
 
 function App() {
   return (
-    <div className="bg-light-200">
+    <div className="">
       <Router>
         <Switch>
           <Route exact path="/">

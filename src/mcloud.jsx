@@ -84,7 +84,7 @@ function Cadre() {
   return (
     <div className="flex items-center justify-center ">
       <div className="">
-        <h1 className="text-2xl text-center font-bold italic pt-4 md:(text-4xl)">
+        <h1 className="text-2xl text-center font-bold text-amber-400 pt-4 md:(text-4xl mt-8)">
           About Service
         </h1>
         <div className="mt-5 grid grid-cols-1 gap-5 place-items-stretch h-48 pt-4 md:(grid grid-cols-3 place-items-stretch h-48 gap-20  )">

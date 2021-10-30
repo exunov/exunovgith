@@ -2,8 +2,7 @@ import React from "react";
 import Footer from "./footer";
 import Head from "./header";
 import Headertop from "./headertop";
-import "./paragraph.css";
-import "./sectio.css";
+import "./back.css";
 
 function Mobile() {
   return (
@@ -20,14 +19,15 @@ function Mobile() {
 function Body() {
   return (
     <div>
-      
       <Headertop />
       <Head />
-      
 
-      <div className="mobile  text-light-100 md:(p-40 ) p-8 space-y-5 transform transition-all  ">
+      <div className="mobile  text-light-100 md:(p-40 h-full) p-8 space-y-5 transform transition-all  ">
         <h1 className="font-bold text-xl md:(text-5xl)">
-          Outsource custom software development
+          <marquee behavior="" direction="">
+            {" "}
+            Outsource custom software development
+          </marquee>
         </h1>
         <p className="md:(text-2xl ) text-sm italic">
           Exunov with a team of experienced software developers and programers,
@@ -53,8 +53,8 @@ function Body1() {
         proficent in developing application in different language platforms.
         Some of them include.
       </p>
-      <div className="  font-semibold font-thin italic md:(flex flex-row divide-x-4 space-x-5  divide-yellow-400  text-2xl py-5 place-items-center justify-center )">
-        <div className="md:(px-5)">
+      <div className="  font-semibold font-thin italic md:(flex flex-row divide-x-4 space-x-5  divide-yellow-400 py-5 place-items-center justify-center )">
+        <div className="md:()">
           <ul className="md:(space-y-2 mt-5) ">
             <div className="flex space-x-4">
               <Puce />
@@ -215,7 +215,7 @@ function Body2() {
         clients to take emerging ideas to the next level. Our mobile app
         development services include:
       </p>
-      <div className="space-y-4 md:(hover:(border-1 shadow-2xl translate-x-5 ml-20 mr-20 p-15 rounded-2xl bg-gray-200) )">
+      <div className="space-y-4 md:(hover:(border-1 shadow-2xl translate-x-5 text-justify text-center rounded-2xl bg-gray-200) )">
         <h2 className="font-bold italic mt-5  md:(text-2xl px-8 font-semibold)">
           IOS application development
         </h2>
@@ -230,7 +230,7 @@ function Body2() {
         </p>
       </div>
 
-      <div className="space-y-4 md:(hover:(border-1 shadow-2xl translate-x-5 ml-20 mr-20 p-15 rounded-2xl bg-gray-200) )  ">
+      <div className="space-y-4 md:(hover:(border-1 shadow-2xl translate-x-5 text-justify text-center rounded-2xl bg-gray-200) )  ">
         <h2 className="font-bold italic mt-5  md:(text-2xl px-8 font-semibold ) ">
           Android application development
         </h2>
@@ -245,7 +245,7 @@ function Body2() {
         </p>
       </div>
 
-      <div className="space-y-4 md(hover:(border-1 shadow-2xl translate-x-5 ml-20 mr-20 p-15 rounded-2xl bg-gray-200) )">
+      <div className="space-y-4 md(hover:(border-1 shadow-2xl translate-x-5 text-justify text-center rounded-2xl bg-gray-200) )">
         <h2 className="font-bold italic mt-5  md:(text-2xl px-8 font-semibold)">
           Hybrid application development
         </h2>
@@ -259,7 +259,7 @@ function Body2() {
         </p>
       </div>
 
-      <div className="space-y-4 md(hover:(border-1 shadow-2xl translate-x-5 ml-20 mr-20 p-15 rounded-2xl bg-gray-200) )">
+      <div className="space-y-4 md(hover:(border-1 shadow-2xl translate-x-5 text-justify text-center rounded-2xl bg-gray-200) )">
         <h2 className="font-bold italic mt-5 md:(font-semibold px-8 text-2xl)">
           Windows application development
         </h2>
@@ -310,7 +310,7 @@ function Body3() {
         </p>
       </div>
 
-      <div className="bg-gray-200 space-y-2 mt-2 p-2 md:(w-300 ml-30 px-15 py-8) ">
+      <div className="bg-gray-200 space-y-2 mt-2 p-2 md:(w-300 ml-20 px-15 py-8) ">
         <h2 className="font-semibold  md:(text-2xl)">
           Mobile application porting
         </h2>
