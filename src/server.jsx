@@ -27,10 +27,10 @@ function Menu() {
       <div className="head1"></div>
       <div className="md:(h-full) menu">
         <nav className=" ">
-          <ul className="geeks flex flex-col  text-white text-center md:(grid grid-cols-7  text-white space-x-3 justify-center items-center) ">
+          <ul className="geeks flex flex-col  text-white text-center md:( grid grid-cols-7   text-white gap-2 justify-center items-center) ">
             <li>
               <NavLink exact activeClassname="active" to="/onsite">
-                Infrastructure solutions
+                Infrastructure
               </NavLink>
             </li>
             <li>
@@ -58,7 +58,7 @@ function Menu() {
               </NavLink>
             </li>
             <li className="">
-              <NavLink activeClassname="active" to="/cyberpro">
+              <NavLink activeClassname="active" to="/endpoint services">
                 Endpoint Services
               </NavLink>
             </li>
@@ -78,7 +78,7 @@ function Body() {
   return (
     <section>
       <div className=" mt-4">
-        <div className="grid grid-cols-1  md: flex items-center justify-center  mt-4">
+        <div className="grid grid-cols-1  md:(flex-col items-center justify-center mt-4)">
           <div className=" md:(text-xl ) space-y-4">
             <h1 className="text-center text-amber-400 font-bold text-xl md:(mt-2 px-4 text-3xl)">
               Managed Servers: Scale your servers today. Conquer tomorrow's
@@ -135,7 +135,7 @@ function BodyB() {
 
         <div className="ml-8 md:(pt-20) ">
           <h1 className="text-2xl font-bold mt-2">Productivity</h1>
-          <p className="mt-4 text-sm font-semibold md:(text-2xl)">
+          <p className="mt-4 text-sm font-semibold md:(text-xl)">
             Every minute counts when it comes to measuring employee performance
           </p>
         </div>
@@ -147,7 +147,7 @@ function BodyB() {
 
         <div className="ml-8 md:(pt-20 mml-10) ">
           <h1 className="text-2xl font-bold mt-2">Time</h1>
-          <p className="mt-4 text-sm font-semibold md:(text-2xl)">
+          <p className="mt-4 text-sm font-semibold md:(text-xl)">
             Server downtime causes more disruption and frustration. It takes
             time to get back to normal.
           </p>
@@ -160,7 +160,7 @@ function BodyB() {
 
         <div className="ml-8 md:(pt-20) ">
           <h1 className="text-2xl font-bold mt-2">Productivity</h1>
-          <p className="mt-4 text-sm font-semibold md:(text-2xl)">
+          <p className="mt-4 text-sm font-semibold md:(text-xl)">
             Every minute counts when it comes to measuring employee performance
           </p>
         </div>
@@ -170,6 +170,9 @@ function BodyB() {
 }
 function BodyC() {
   return (
+
+
+    
     <section>
       <div className="mt-8 md:(mt-20 px-50 py-5) bg-amber-800 text-white space-y-2">
         <h1 className="space-y-4 text-center text-amber-300  font-bold text-xl md:(mt-2 px-4 text-3xl)">

@@ -52,11 +52,11 @@ function Exunumder() {
         EXUNOV by Numbers
       </h1>
 
-      <div className="flex grid grid-cols-2 space-x-4 justify-items-center font-bold italic text-center p-px md:(flex grid grid-cols-4 ml-40 mr-30  )">
+      <div className="flex grid grid-cols-2 space-x-4 justify-items-center font-bold italic text-center  md:(flex grid grid-cols-4 ml-40 mr-30 py-5  )">
         {items.map((i) => (
           <div className="flex flex-col justify-center items-center">
             <img src={i.image} alt="" className="h-28 w-38 md:(h-50 w-60)" />
-            <h2 className="">{i.text}</h2>
+            <h2 className="md:(text-xl)">{i.text}</h2>
           </div>
         ))}
       </div>

@@ -160,8 +160,8 @@ function Mcyber() {
             We protect your business relentlessly
           </h1>
           <div className="grid grid-cols-2 gap-5 px-4 md:(grid grid-cols-4 gap-10 mr-30 ml-30 place-items-center)">
-            <div className="md:(px-2)">
-              <h1 className="font-bold text-2xl ">Detection</h1>
+            <div className="">
+              <h1 className="font-bold text-2xl md:(mt-7) ">Detection</h1>
               <p className="pt-2 font-semibold italic text-sm md:(text-xl)">
                 Penetration testing: find harmful threats in your infrastruture
               </p>
@@ -179,8 +179,8 @@ function Mcyber() {
                 <br /> Report details to customers
               </p>
             </div>
-            <div className=" md:(px-2) ">
-              <h1 className="font-bold  text-2xl md:(mt-5) ">Response</h1>
+            <div className="">
+              <h1 className="font-bold  text-2xl   md:(mt-5)">Response</h1>
               <p className="pt-2 font-semibold italic text-sm  md:(text-xl) ">
                 Solution: Neutralize and solve the problem for/ with the
                 customer

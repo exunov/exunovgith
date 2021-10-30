@@ -9,6 +9,7 @@ import Footer from "./footer";
 import Propriety from "./propriety";
 import Slide from "./corps";
 import Cardre1 from "./cardre1";
+import Slid from "./corps";
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
       <Globecenter />
       <Foot />
       <Cadre />
-      <Slide />
+      <Slid />
       <Cardre1 />
       <Propriety />
       <Footer />

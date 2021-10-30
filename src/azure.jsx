@@ -78,7 +78,7 @@ function Body2() {
   return (
     <div className="flex items-center justify-center ">
       <div className=" p-5">
-        <h1 className="text-2xl text-center font-bold pt-4 md:(text-4xl)">
+        <h1 className="text-2xl text-center font-bold text-amber-400 md:(text-4xl mt-8)">
           About Service
         </h1>
         <p className="mt-4 px-6 md:(text-xl ) text-justify">

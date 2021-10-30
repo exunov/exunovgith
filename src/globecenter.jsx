@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./center.css";
+import "./back.css";
 
 function Globecenter() {
   return (
-    <div className=" p-10 md:(h-full p-10)  home space-y-5  ">
+    <div className=" p-5 md:(h-full p-10)  home space-y-5  ">
       <p className="font-bold text-light-200 text-3xl md:(text-5xl) ">
         Cybersecurity
         <br />
@@ -13,7 +13,7 @@ function Globecenter() {
         And Training
       </p>
       <div className="md:(flex justify-between py-20) inline-block justify-between">
-        <p className="font-bold text-xl italic  text-light-200  md:( text-4xl)">
+        <p className="font-bold text-xl italic  text-light-200  md:( text-3xl)">
           As your partner of choice,
           <br />
           we provide cybersecurity
