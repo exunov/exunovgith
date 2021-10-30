@@ -26,10 +26,10 @@ function Haut() {
       <div className="head1"></div>
       <div className="md:(h-full) menu">
         <nav className=" ">
-          <ul className="geeks flex flex-col mx-2 text-white text-center  md:(grid grid-cols-7  text-white space-x-3 justify-center items-center) ">
+          <ul className="geeks flex flex-col mx-2 text-white text-center  md:( grid grid-cols-7   text-white gap-2 justify-center items-center) ">
             <li>
               <NavLink exact activeClassname="active" to="/onsite">
-                Infrastructure Solutions
+                Infrastructure
               </NavLink>
             </li>
             <li>
@@ -57,7 +57,7 @@ function Haut() {
               </NavLink>
             </li>
             <li className="">
-              <NavLink activeClassname="active" to="/endpoint-service">
+              <NavLink activeClassname="active" to="/endpoint services">
                 Endpoint Services
               </NavLink>
             </li>

@@ -84,7 +84,7 @@ function Cadre() {
   return (
     <div className="flex items-center justify-center ">
       <div className="">
-        <h1 className="text-2xl text-center font-bold italic pt-4 md:(text-4xl)">
+        <h1 className="text-2xl text-center font-bold text-amber-400 pt-4 md:(text-4xl mt-8)">
           About Service
         </h1>
         <div className="mt-5 grid grid-cols-1 gap-5 place-items-stretch h-48 pt-4 md:(grid grid-cols-3 place-items-stretch h-48 gap-20  )">
@@ -147,14 +147,14 @@ function Cadre() {
 function Text() {
   return (
     <div className="mt-150 px-4 space-y-4    md:(space-y-10 mt-40 p-40 place-items-center font-thin ) ">
-      <div className="md:(text-xl border-1 bg-gray-100 rounded-2xl shadow-2xl border-b-yellow-600 border-b-4 )">
+      <div className="md:(border-1 bg-gray-100 rounded-2xl shadow-2xl border-b-yellow-600 border-b-4 )">
         <p className=" px-10 py-10 text-center">
           According to analyst firm Canalys, by early 2021, AWS has taken 31% of
           the global cloud market, outpacing other hyper-scalers. The closest
           competitors are Azure (20%) and Google (7%).
         </p>
       </div>
-      <div className="pt-4 md:(text-xl border-1 bg-gray-100 rounded-2xl shadow-2xl border-b-yellow-600 border-b-4 )">
+      <div className="pt-4 md:( border-1 bg-gray-100 rounded-2xl shadow-2xl border-b-yellow-600 border-b-4 )">
         <p className=" px-10 py-10 text-center">
           AWS offers more than 200 comprehensive, fully functional services for
           all tasks. The platform allows you to build your own infrastructure
@@ -162,13 +162,13 @@ function Text() {
           expenses.
         </p>
       </div>
-      <div className="pt-4 md:(text-xl border-1 bg-gray-100 rounded-2xl shadow-2xl border-b-yellow-600 border-b-4 )">
+      <div className="pt-4 md:( border-1 bg-gray-100 rounded-2xl shadow-2xl border-b-yellow-600 border-b-4 )">
         <p className=" px-10 py-10 text-center">
           The platform provides mobile, web and business applications, data
           processing and storage, backup and other features.
         </p>
       </div>
-      <div className="pt-4 md:(text-xl border-1 bg-gray-100 border-b-yellow-600 border-b-4 rounded-2xl shadow-2xl )">
+      <div className="pt-4 md:( border-1 bg-gray-100 border-b-yellow-600 border-b-4 rounded-2xl shadow-2xl )">
         <p className=" px-10 py-10 text-center">
           AWS launches in new regions faster than competitors; it's the most
           in-demand hyper-scaler in the world. Large companies like Netflix,

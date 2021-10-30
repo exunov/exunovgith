@@ -27,10 +27,10 @@ function Body1() {
       <div className="head1"></div>
       <div className="md:(h-full) menu">
         <nav className=" ">
-          <ul className="geeks flex flex-col  text-white text-center md:(grid grid-cols-7   text-white space-x-3 justify-center items-center) ">
+          <ul className="geeks flex flex-col  text-white text-center md:( grid grid-cols-7   text-white gap-2 justify-center items-center ) ">
             <li>
               <NavLink exact activeClassname="active" to="/onsite">
-                Infrastructure Solutions
+                Infrastructure
               </NavLink>
             </li>
             <li>
@@ -76,7 +76,7 @@ function Body1() {
 
 function Body2() {
   return (
-    <div className=" mt-4">
+    <div>
       <h1 className="px-3 text-center font-bold text-amber-400 text-xl md:(text-3xl)">
         Act quickly without straying from what is important{" "}
       </h1>

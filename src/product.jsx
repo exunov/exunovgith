@@ -9,14 +9,13 @@ import zero from "./images/zero.png";
 import sd from "./images/SDWAN.png";
 import quote1 from "./images/Group6.png";
 import Footer from "./footer";
-import "./sectio.css";
+import "./back.css";
 
 function Product() {
   return (
     <div>
       <Headertop />
       <Head />
-
       <Body />
       <Body2 />
       <Cadrechild />
@@ -27,8 +26,8 @@ function Product() {
 
 function Body() {
   return (
-    <div className="  md:(p-30 h-130) bg-prod-img ">
-      <div className="space-y-5 p-15 ">
+    <div className="product md:(p-40 h-120) ">
+      <div className="space-y-5">
         <h1 className="font-bold text-light-200 md:(text-5xl) ">Product</h1>
         <p className=" md:(text-3xl text-light-100)  hover:text-black">
           We present our product through
@@ -53,7 +52,7 @@ function Body2() {
               alt=""
               className="h-80 w-full md:(w-100 h-100 py-5) "
             />
-            <p className="p-2 text-sm md:(text-xl  font-thin font-semibold)">
+            <p className="p-2 text-sm md:(text-xl py-20  font-thin font-semibold)">
               {" "}
               A Data Leak Prevention (DLP) system is a system that that prevents
               confidential information from leaking out of from leaking from the

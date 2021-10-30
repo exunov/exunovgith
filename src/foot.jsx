@@ -108,85 +108,85 @@ function Cardre() {
         </p>
       </div>
 
-      <div class="mt-5 grid grid-cols-1 place-items-center gap-2 md:( grid grid-cols-3 ml-30 gap-5)">
-        <div className="flex flex-col p-3 space-y-2 border-1  shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic) md:(h-100 w-100 space-y-5 p-2)">
+      <div class="mt-5 grid grid-cols-1 place-items-center gap-2 md:( grid grid-cols-2 ml-30 gap-4)">
+        <div className="flex flex-col p-3 space-y-2 border-1  shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic) md:(h-90 w-90 space-y-5 p-2)">
           <img src={icon1} alt="" className="w-20 ml-30 md:(w-20 )" />
           <div className="divide-y-4 divide-yellow-400 space-y-2">
             <h1 className="font-bold text-xl text-center  md:(text-2xl)">
               Manage Directions
             </h1>
 
-            <p className="text-xl  p-6  md:(text-2xl)">
+            <p className="text-xl  p-6  md:(text-xl)">
               We help you make the right decision, check the vulnerability of
               your infrastructure and ensure the integrity of your data
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col p-3 space-y-2 border-1   shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic)   md:(h-100 w-100 space-y-5 p-2)">
+        <div className="flex flex-col p-3 space-y-2 border-1   shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic)   md:(h-90 w-90 space-y-5 p-2)">
           <img src={icon2} alt="" className="md:(w-35 ml-30)  w-30 ml-18" />
           <div className="divide-y-4 divide-yellow-400 space-y-2">
             <h1 className="font-bold text-xl text-center  md:(text-2xl)">
               Manage Service
             </h1>
 
-            <p className="text-xl  p-6  md:(text-2xl)">
+            <p className="text-xl  p-6  md:(text-xl)">
               We help you manage,operate, optimize and secure your information
               system
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col p-3 space-y-2 border-1  shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic)   md:(h-100 w-100 space-y-5 p-2)">
+        <div className="flex flex-col p-3 space-y-2 border-1  shadow-purple-900 shadow-2xl  rounded-2xl hover:(bg-red-200 transform translate-y-5 italic)   md:(h-90 w-90 space-y-5 p-2)">
           <img src={icon4} alt="" className="md:(w-30 ml-30) w-30 ml-18" />
           <div className="divide-y-4 divide-yellow-400 space-y-2">
             <h1 className="font-bold text-xl text-center  md:(text-2xl)">
               SOC Service
             </h1>
 
-            <p className="text-xl  p-6  md:(text-2xl)">
+            <p className="text-xl  p-6  md:(text-xl)">
               The SOC will detect, analyze and remediate cybersecurity incidents
               using technology solutions
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col p-3 space-y-2 border-1  shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic)   md:(h-100 w-100 space-y-5 p-2)">
+        <div className="flex flex-col p-3 space-y-2 border-1  shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic)   md:(h-90 w-90 space-y-5 p-2)">
           <img src={icon3} alt="" className="md:(w-20 ml-30) w-20 ml-22" />
           <div className="divide-y-4 divide-yellow-400 space-y-2">
             <h1 className="font-bold text-xl text-center  md:(text-2xl)">
               Bussiness Continuity Plan
             </h1>
 
-            <p className="text-xl  p-6  md:(text-2xl)">
+            <p className="text-xl  p-6  md:(text-xl)">
               We help you to guarantee the survival of the company in case of a
               major disaster affecting the computer system
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col p-3 space-y-2 border-1  shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic)   md:(h-100 w-100 space-y-5 p-2)">
+        <div className="flex flex-col p-3 space-y-2 border-1  shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic)   md:(h-90 w-90 space-y-5 p-2)">
           <img src={icon5} alt="" className="md:(w-20 ml-30) w-20 ml-22" />
           <div className="divide-y-4 divide-yellow-400 space-y-2">
             <h1 className="font-bold text-xl text-center  md:(text-2xl)">
               Software Development
             </h1>
 
-            <p className="text-xl  p-6  md:(text-2xl)">
+            <p className="text-xl  p-6  md:(text-xl)">
               We help you through the design process to the creation and
               maintenance of any type of application you may need
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col p-3 space-y-2 border-1  shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic)   md:(h-100 w-100 space-y-5 p-2)">
+        <div className="flex flex-col p-3 space-y-2 border-1  shadow-purple-900 shadow-2xl  rounded-3xl hover:(bg-red-200 transform translate-y-5 italic)   md:(h-90 w-90 space-y-5 p-2)">
           <img src={icon6} alt="" className="md:(w-20 ml-30) w-20 ml-22" />
           <div className="divide-y-4 divide-yellow-400 space-y-2">
             <h1 className="font-bold text-xl text-center  md:(text-2xl)">
               Training
             </h1>
 
-            <p className="text-xl  p-6  md:(text-2xl)">
+            <p className="text-xl  p-6  md:(text-xl)">
               We offer you a solid understanding of digital forensics through
               training CHFI, CISA, CISM, ITIIL 4 certified
             </p>

@@ -12,7 +12,7 @@ function Cardre1() {
 function Body() {
   return (
     <div className="new">
-      <div className="grid grid-cols-2 gap-3 px-6 py-2 md:(grid grid-cols-3 gap-2 place-items-streeth pl-70)">
+      <div className="grid grid-cols-2 gap-3 px-6 py-2 md:(grid grid-cols-3 gap-4 place-items-streeth mt-8 pl-70)">
         <div className="p-2 border-2 border-light-50 rounded-xl text-light-50 md:(w-50 p-4 text-xl)">
           I'm beginner in security. Where to start?
         </div>

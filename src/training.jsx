@@ -30,12 +30,12 @@ function Training() {
 
 function HautP() {
   return (
-    <div className="image md:(h-120)">
-      <div className=" p-10 md:(space-y-5 text-right p-40)">
+    <div className="image md:(p-30 h-120)">
+      <div className=" text-light-200 p-10 md:(space-y-5 text-right)">
         <h1 className="font-bold text-white text-3xl  md:(text-5xl )">
           Training
         </h1>
-        <p className="text-white text-xl md:(text-2xl text-right  )">
+        <p className="text-white text-xl md:(text-3xl text-right  )">
           We offer you the skills to build
           <br /> your digital futur through our accelerated courses
         </p>
@@ -174,7 +174,7 @@ function Body() {
         <h1 className="mt-4 text-amber-400 text-center font-bold text-xl md:(text-3xl)">
           Why every course you took was a waste of time
         </h1>
-        <p className="space-y-4 mt-4 md:(text-2xl ) text-sm  ">
+        <p className="space-y-4 mt-4 md:(text-xl ) text-sm  ">
           Firebrand Training uses accelerated learning techniques to deliver
           large amounts of information in the shortest possible time.
           Accelerated learning is very different from traditional teaching.{" "}
@@ -193,7 +193,7 @@ function Body() {
           in schools ("traditional teaching methods") are the only methods of
           learning.{" "}
         </p>
-        <p className="mt-4 text-sm  md:(text-2xl)">
+        <p className="mt-4 text-sm  md:(text-xl)">
           In accelerated learning, students are involved in the learning process
           and teaching methods are constantly evolving. This takes into account
           all the basic learning styles we use.{" "}
@@ -208,13 +208,13 @@ function Body() {
         <h1 className="mt-4 text-amber-400 text-center text-xl  font-bold md:(text-3xl)">
           We train you, you don't train yourself
         </h1>
-        <p className="space-y-4 text-sm  mt-4 md:(text-2xl)">
+        <p className="space-y-4 text-sm  mt-4 md:(text-xl)">
           Students do not have to study large amounts of information alone. We
           guarantee that you will be trained and certified with us in the
           shortest possible time. Accelerated learning is very different from
           traditional teaching.{" "}
         </p>
-        <p className="mt-4 text-sm text-sm  md:(text-2xl)">
+        <p className="mt-4 text-sm text-sm  md:(text-xl)">
           Firebrand training is unlike any other boot camp. The focus is not
           only on testing, but on skill development under the guidance of an
           instructor.{" "}
