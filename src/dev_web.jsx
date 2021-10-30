@@ -31,7 +31,7 @@ function Devweb() {
 function Body() {
   return (
     <div>
-      <div className=" web md:(p-40 h-full ) p-10 space-y-5 ">
+      <div className=" web md:(p-30 h-120 ) p-10 space-y-5 ">
         <p className="space-y-2 text-white text-left md:(space-y-8 )">
           <h1 className="font-bold text-xl md:(text-5xl)">
             <marquee behavior="" direction="">

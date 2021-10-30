@@ -9,14 +9,13 @@ import zero from "./images/zero.png";
 import sd from "./images/SDWAN.png";
 import quote1 from "./images/Group6.png";
 import Footer from "./footer";
-import "./sectio.css";
+import "./back.css";
 
 function Product() {
   return (
     <div>
       <Headertop />
       <Head />
-
       <Body />
       <Body2 />
       <Cadrechild />
@@ -27,7 +26,7 @@ function Product() {
 
 function Body() {
   return (
-    <div className="  md:(p-40 h-130) bg-prod-img bg-cover ">
+    <div className="product md:(p-40 h-120) ">
       <div className="space-y-5">
         <h1 className="font-bold text-light-200 md:(text-5xl) ">Product</h1>
         <p className=" md:(text-3xl text-light-100)  hover:text-black">

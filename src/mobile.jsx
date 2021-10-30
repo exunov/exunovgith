@@ -22,14 +22,14 @@ function Body() {
       <Headertop />
       <Head />
 
-      <div className="mobile  text-light-100 md:(p-40 h-full) p-8 space-y-5 transform transition-all  ">
+      <div className="mobile  text-light-100 md:(p-30 h-120) p-8 space-y-5 transform transition-all  ">
         <h1 className="font-bold text-xl md:(text-5xl)">
           <marquee behavior="" direction="">
             {" "}
             Outsource custom software development
           </marquee>
         </h1>
-        <p className="md:(text-2xl ) text-sm italic">
+        <p className="md:(text-3xl ) text-sm italic">
           Exunov with a team of experienced software developers and programers,
           <br />
           state-of-the-art infrastructure, advanced software and latest

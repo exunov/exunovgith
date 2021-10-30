@@ -27,8 +27,7 @@
   background-position: center center;
 }
 .product {
-  background-image: url("src/images/prod.png");
-
+  background-image: url("images/prod.jpg");
   background-size: cover;
   height: 400px;
   background-repeat: no-repeat;

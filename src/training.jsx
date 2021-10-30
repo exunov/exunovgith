@@ -30,8 +30,8 @@ function Training() {
 
 function HautP() {
   return (
-    <div className="image md:(h-130)">
-      <div className=" p-10 md:(space-y-5 text-right p-40)">
+    <div className="image md:(p-30 h-120)">
+      <div className=" text-light-200 p-10 md:(space-y-5 text-right)">
         <h1 className="font-bold text-white text-3xl  md:(text-5xl )">
           Training
         </h1>
