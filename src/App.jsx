@@ -25,6 +25,10 @@ import Office from "./office";
 import Mdetection from "./mdetection";
 import Cyberpro from "./cyberpro";
 import Cvm from "./cvm";
+import Enduser from "./enduser";
+import Helpdesk from "./helpdesk";
+import Muser from "./muser";
+import BusinessApp from "./businessApp";
 
 function App() {
   return (
@@ -119,6 +123,18 @@ function App() {
 
           <Route exact path="/cvm">
             <Cvm />
+          </Route>
+          <Route exact path="/muser">
+            <Muser/>
+          </Route>
+          <Route exact path="/enduser">
+            <Enduser />
+          </Route>
+          <Route exact path="/helpdesk">
+            <Helpdesk />
+          </Route>
+          <Route exact path="/businessApp">
+            <BusinessApp />
           </Route>
         </Switch>
       </Router>

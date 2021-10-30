@@ -196,3 +196,19 @@
   position: relative;
   background-position: center center;
 }
+.user{
+  background-image: url("images/management-users.jpg");
+  background-color: black; 
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 30px;
+  left: 0px;
+  overflow: hidden;
+}
+
+
