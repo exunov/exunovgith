@@ -23,7 +23,7 @@ function Body1() {
       <div className="head"></div>
       <div className="md:(h-full) menu">
         <nav className=" ">
-          <ul className="geeks flex flex-col  text-white text-center md:(grid grid-cols-4 gap-x-3  text-white  text-center text-xl) ">
+          <ul className="geeks flex flex-col  text-white text-center md:(grid grid-cols-4 gap-x-3  text-white  text-center ) ">
             <li>
               <NavLink to="/mcyber">
                 Managed
@@ -31,7 +31,7 @@ function Body1() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/mdetection">Managed Detection and Response</NavLink>
+              <NavLink to="/mdetection">Managed Detection <be/>and Response</NavLink>
             </li>
             <li>
               <NavLink to="/cyberpro">
@@ -46,7 +46,7 @@ function Body1() {
                 activeClassname="active"
                 className=" geeks a"
               >
-                Continue Vulnerabilities Management
+                Continue Vulnerabilities<br/> Management
               </NavLink>
             </li>
           </ul>
