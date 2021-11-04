@@ -32,7 +32,7 @@ function Body1() {
       <div className="head"></div>
       <div className="md:(h-full) menu ">
         <nav className=" ">
-          <ul className="geeks flex flex-col  text-white text-center md:(grid grid-cols-4 gap-x-3 text-white text-xl) ">
+          <ul className="geeks flex flex-col  text-white text-center md:(grid grid-cols-4 gap-x-3 text-white ) ">
             <li>
               <NavLink to="/mcyber" className="">
                 Managed
@@ -46,7 +46,7 @@ function Body1() {
                 to="/mdetection"
                 className=" geeks a"
               >
-                Managed Detection and Response
+                Managed Detection <br/>and Response
               </NavLink>
             </li>
             <li>
@@ -56,7 +56,7 @@ function Body1() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/cvm">Continue Vulnerabilities Management</NavLink>
+              <NavLink to="/cvm">Continue Vulnerabilities <br/>Management</NavLink>
             </li>
           </ul>
         </nav>
@@ -68,7 +68,7 @@ function Body2() {
   return (
     <div>
       <div className="mt-4">
-        <h1 className="text-xl font-bold text-amber-400 text-center md:(text-3xl) ">
+        <h1 className="text-xl font-bold text-amber-400 text-center md:(text-2xl) ">
           Full threat visibility is the only guarantee against cyber risk
         </h1>
         <p className="px-4 mt-2 text-sm md:(px-40 text-center text-xl)">
@@ -87,10 +87,10 @@ function Body3() {
   return (
     <div>
       <div className="mt-4 bg-gray-100">
-        <h1 className="text-xl md:(text-3xl) font-bold text-amber-400 text-center mt-2 p-5">
+        <h1 className="text-xl md:(text-2xl) font-bold text-amber-400 text-center mt-2 p-5">
           The volume of data to be monitored is unimaginable.
         </h1>
-        <p className="px-4 text-sm p-4 md:(px-40 text-center text-xl p-6)">
+        <p className="px-4 text-sm p-4 md:(px-40 text-center p-6 text-xl)">
           The amount of information available today makes detection or
           remediation nearly impossible. While some technology is used today,
           detection and response services in most cases require the constant
@@ -110,7 +110,7 @@ function Body4() {
       <h1 className="text-center text-xl md:(text-2xl) font-bold text-amber-400 ">
         It's 3:00 in the morning. Who's watching your assets?
       </h1>
-      <ul className="list-disc list-inside px-6 mt-4  md:(text-center)">
+      <ul className="list-disc list-inside px-6 mt-4 text-sm md:(text-center)">
         <li className="">
           Are security measures in place to detect security breaches before they
           occur?
@@ -132,13 +132,13 @@ function Body4() {
 function Body5() {
   return (
     <section className=" bg-gray-200 mt-4 md:(grid grid-cols-2 gap-4)">
-      <div className="border-t-20 p-4 border-amber-700 mt-4">
+      <div className=" mt-4">
         <div className="px-6 ">
-          <h1 className="font-bold text-xl md:(text-3xl) text-center mt-4">
+          <h1 className="font-bold text-xl text-center mt-4 md:(text-2xl)">
             What you can do with Exunov's managed discovery and response
             services
           </h1>
-          <p className="mt-4 px-4 text-sm md:(text-xl)">
+          <p className="mt-4 px-4 text-sm md:(text-xl) ">
             Managed discovery and response services provide threat detection,
             security incident reporting, and cyber response by monitoring
             security system events and logs in real time. It monitors your
@@ -147,7 +147,7 @@ function Body5() {
           </p>
         </div>
         <div className="px-6 mt-4 ">
-          <h2 className="text-amber-400 font-bold text-xl md:(text-3xl) text-center mt-4">
+          <h2 className="text-amber-400 font-bold text-xl text-center mt-4">
             End separation
           </h2>
           <p className="mt-4 px-4 text-sm md:(text-xl)">
@@ -159,16 +159,16 @@ function Body5() {
           </p>
         </div>
         <div className="px-6 mt-4  ">
-          <h2 className="text-amber-400 font-bold text-xl md:(text-3xl) text-center mt-4">
+          <h2 className="text-amber-400 font-bold text-xl text-center mt-4">
             Access control to removable media
           </h2>
-          <p className="mt-4 px-4  text-sm md:(text-xl)">
+          <p className="mt-4 px-4  text-sm md:(text-xl) ">
             Gain peace of mind by preventing unauthorized removable media from
             being attached to your organization's assets.
           </p>
         </div>
         <div className="px-6 mt-4 ">
-          <h2 className="text-amber-400 font-bold text-xl md:(text-3xl) text-center mt-4">
+          <h2 className="text-amber-400 font-bold text-xl text-center mt-4">
             Endpoint Encryption
           </h2>
           <p className="mt-4 px-4  text-sm md:(text-xl)">
@@ -177,29 +177,29 @@ function Body5() {
           </p>
         </div>
         <div className="px-6 mt-4 ">
-          <h2 className="text-amber-400 text-xl md:(text-3xl) font-bold text-center mt-4">
+          <h2 className="text-amber-400 text-xl font-bold text-center mt-4">
             24x7x365 monitoring, visitor detection, validation and reporting
           </h2>
-          <p className="mt-4 px-4  text-sm md:(text-xl)">
+          <p className="mt-4 px-4  text-sm md:(text-xl) ">
             Protect yourself from global threats with the collective experience
             of a recognized security group that monitors daily.
           </p>
         </div>
         <div className="px-6 mt-4 ">
-          <h2 className="text-amber-400 text-xl md:(text-3xl) font-bold text-center mt-4">
+          <h2 className="text-amber-400 text-xl font-bold text-center mt-4">
             Detection of security incidents on managed terminals
           </h2>
-          <p className="mt-4 px-4  text-sm md:(text-xl)">
+          <p className="mt-4 px-4 text-sm md:(text-xl)">
             Using our new endpoint generation client with Endpoint Detection and
             Response (EDR), 24x7x365 database to identify, validate and report
             security incidents for our customers.
           </p>
         </div>
         <div className="px-6 mt-4 ">
-          <h2 className="text-amber-400 text-xl font-bold  md:(text-3xl) text-center mt-4">
+          <h2 className="text-amber-400 text-xl font-bold text-center mt-4">
             Siem and advanced correlation
           </h2>
-          <p className="mt-4 px-4   text-sm md:(text-xl) ">
+          <p className="mt-4 px-4 text-sm md:(text-xl)">
             Exunov's advanced information and event management (SIEM) assessment
             and correlation adds management, correlation and detection of
             additional log sources. Correlation of additional security log data
@@ -208,10 +208,10 @@ function Body5() {
           </p>
         </div>
         <div className="mt-4 px-6  ">
-          <h2 className="text-amber-400 text-xl font-bold  md:(text-3xl) text-center mt-4">
+          <h2 className="text-amber-400 text-xl font-bold text-center mt-4">
             Preparation of personal incident manuals
           </h2>
-          <p className="mt-4 px-4  text-sm md:(text-xl)">
+          <p className="mt-4 px-4 text-sm md:(text-xl)">
             As part of our managed detection and response services, a personal
             incident manual is obtained to help your team prepare for and manage
             incidents without losing the critical step. Proactive Threat
@@ -223,9 +223,7 @@ function Body5() {
             removal from the data uplink is returned to the infected endpoint
             client, reducing disruption and ensuring continued productivity in
             the workplace.Developing an Incident Response (IR){" "}
-          </p>
-
-          <p className="mt-4 px-2  text-sm md:(text-xl)">
+          <br/><br/>
             Plan Implementing the IR plan is an essential component of a
             successful security program and is an important step in security.
             Reciprocity with other services. Other comprehensive cyber services
@@ -234,10 +232,10 @@ function Body5() {
           </p>
         </div>
       </div>
-      <div className="border-t-20 border-amber-700 mt-4">
+      <div className=" mt-4">
         <div className="px-6">
           <h1 className="font-bold text-2xl text-center mt-4">SIEM</h1>
-          <p className="mt-4 px-4  text-sm md:(text-xl)">
+          <p className="mt-4 px-4  text-sm md:(text-xl) ">
             Exunov key's IT security management uses security information and
             event management (SIEM) tools to provide real-time IT security
             monitoring and alerting services. Our SIEM tools are more
@@ -248,13 +246,12 @@ function Body5() {
             management capabilities of SIEM tools include installing,
             configuring, and monitoring the status/availability of hardware or
             software that provides security controls.
-          </p>
-          <p className="mt-4 px-4  text-sm md:(text-xl)">
+          <br/><br/>
             Additional information security risk management capabilities are
             available to your organization through the Integrated Security
             Management platform:{" "}
           </p>
-          <ul className="list-disc mt-4 px-6">
+          <ul className="list-disc mt-4 px-6 text-sm">
             <li>Centralized log management</li>
             <li>Office 365 Monitoring</li>
             <li>Threat Information</li>
@@ -272,7 +269,7 @@ function Body5() {
             mitigate risks, and report the impact of program development and
             investment to executives and the board of directors.
           </p>
-          <ul className="list-disc mt-4 px-6 md:(text-xl)">
+          <ul className="list-disc mt-4 px-6 text-sm ">
             <li>GIAC Certified Intrusion Analyst (GCIA)</li>
             <li>
               ISC2 Certified Information Systems Security Professional (CISSP)
@@ -302,7 +299,7 @@ function Body6() {
         <img src={image} alt="" className="md:( float-right w-full) w-full" />
 
         <div className="">
-          <h1 className="text-3xl font-bold text-center mt-2">
+          <h1 className="text-2xl font-bold text-center mt-2">
             Your team covers what it can, but there are gaps.
           </h1>
           <p className="px-4 text-sm p-4 md:( text-justify text-xl p-6)">
@@ -330,7 +327,7 @@ function Body7() {
         <h1 className="mt-4 px-8 text-center   text-2xl font-bold ">
           Monitoring of Dark Web credentials
         </h1>
-        <p className="mt-3 text-sm  md:(text-xl px-40 text-justify) ">
+        <p className="mt-3 text-sm  md:( px-40 text-justify text-xl) ">
           Exunov's managed tracking and response services include dark web
           credential
           <br /> monitoring, which detects dark web credentials in real time and

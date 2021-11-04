@@ -17,7 +17,7 @@ function Mcyber() {
       <div className="head"></div>
       <div className="md:(h-full) menu ">
         <nav className="  ">
-          <ul className="geeks text-white text-center md:( grid grid-cols-4 gap-x-1 text-white text-xl ) ">
+          <ul className="geeks text-white text-center md:( grid grid-cols-4 gap-x-1 text-white ) ">
             <li className="">
               {" "}
               <NavLink
@@ -46,7 +46,7 @@ function Mcyber() {
             </li>
             <li className="">
               <NavLink exact to="/cvm" activeClassName=" exactactive">
-                Continue Vulnerabilities Management
+                Continue Vulnerabilities<br/> Management
               </NavLink>
             </li>
           </ul>
@@ -55,10 +55,10 @@ function Mcyber() {
 
       <div className="">
         <div className="md:(px-50) text-justify">
-          <h1 className="text-xl text-amber-400 font-bold text-center p-4 md:(text-3xl)">
+          <h1 className="text-xl text-amber-400 font-bold text-center p-4 md:(text-2xl)">
             If you think mid-sized companies aren't targets,think again
           </h1>
-          <p className="px-4 text-sm md:(text-xl) ">
+          <p className="px-4 text-sm md:(text-xl)">
             Cyberattacks on large corporations and international businesses have
             become increasingly common in recent years. Private company and
             employee data and information are regularly the spoils of an attack,
@@ -70,10 +70,10 @@ function Mcyber() {
           </p>
         </div>
         <div className=" pt-4">
-          <h1 className="text-xl text-center font-bold">
+          <h1 className="text-2xl text-center font-bold">
             Why manage cybersecurity: by the numbers
           </h1>
-          <p className="text-xs text-center">
+          <p className="text-sm text-center md:(text-xl)">
             All statistics from the IBM/Ponemon Global Cost of Data Breach Study
             2020.
           </p>
@@ -81,33 +81,33 @@ function Mcyber() {
         <div className="flex items-center justify-center">
           <div className=" pt-8  divide-y-2 space-y-6 w-50 divide-yellow-400 text-center md:(w-150)">
             <div>
-              <h1 className="text-xl font-bold ">
+              <h1 className="text-2xl font-bold ">
                 Average time to identify and contain a breach
               </h1>
-              <p className="text-xl text-yellow-400 font-bold pt-4">280 days</p>
+              <p className="text-sm text-yellow-400 font-bold pt-4 md:(text-xl)">280 days</p>
             </div>
             <div>
-              <h1 className="text-xl font-bold pt-4">
+              <h1 className="text-2xl font-bold pt-4">
                 Customer personnal information is frequently compromised,
                 costing
               </h1>
-              <p className="text-xl text-yellow-400 font-bold pt-4">
+              <p className="text-sm text-yellow-400 font-bold pt-4 md:(text-xl)">
                 $150 per record
               </p>
             </div>
             <div>
-              <h1 className="text-xl font-bold pt-4">
+              <h1 className="text-2xl font-bold pt-4">
                 Average cost of breaches for mid-sized companies was
               </h1>
-              <p className="text-xl text-yellow-400 font-bold pt-4">
+              <p className="text-sm text-yellow-400 font-bold pt-4 md:(text-xl)">
                 $3.63 millions in 2020
               </p>
             </div>
             <div>
-              <h1 className="text-xl font-bold pt-4">
+              <h1 className="text-2xl font-bold pt-4">
                 Experience of most affected companies
               </h1>
-              <p className="text-xl text-yellow-400 font-bold pt-4">
+              <p className="text-sm text-yellow-400 font-bold pt-4 md:(text-xl)">
                 3 to 14 days of downtime
               </p>
             </div>
@@ -115,10 +115,10 @@ function Mcyber() {
         </div>
         <div className="bas hover: shadow-xl text-black">
           <div className=" space-y-2 px-10 md:(p-8 text-justify)">
-            <h1 className="text-black text-xl md:(text-3xl text-white pt-0) pt-2 font-bold text-center">
+            <h1 className="text-black text-xl md:(text-2xl text-white pt-0) pt-2 font-bold text-center">
               Creating a cybersecurity program from scratch is overwhelming
             </h1>
-            <p className=" text-white italic md:(text-xl  p-5)  ">
+            <p className=" text-white italic text-sm md:(text-xl p-5)  ">
               Cyber threats and attacks are increasing in number and
               complexity.In our information-driven digital world, managing cyber
               threats has become a stratrgic business imperative. Indeed,the
@@ -126,7 +126,7 @@ function Mcyber() {
               theft.CISO know that it's not pratical to put in place an internal
               cyber program they can trust given :
             </p>
-            <ul className="text-white text-sm  space-y-2 py-2  list-disc md:(px-20 text-xl)">
+            <ul className="text-white text-sm  space-y-2 py-2  list-disc md:(px-20 )">
               <li className="">The increase in cybersecurity skills</li>
               <li>Alerts to analyze that increase on a daily basis</li>
               <li>
@@ -143,7 +143,7 @@ function Mcyber() {
             <h1 className="text-center text-white text-xl px-2 mt-2 md:(text-2xl )">
               Achieve cyber maturity quickly with managed cybersecurity
             </h1>
-            <p className=" text-white text-sm  italic px-3 p-1 md:(text-xl pt-2 )">
+            <p className=" text-white text-sm  italic px-3 p-1 md:( pt-2 text-xl)">
               EXUNOV's comprehensive Cyber Security Risk Management Strategy
               provides customers with the ability to better manage their
               information systems and ensure data integrity. This includes:
@@ -154,7 +154,7 @@ function Mcyber() {
           </div>
         </div>
         <div className="mt-10 space-y-5 p-4">
-          <h1 className=" text-center text-2xl font-bold text-amber-400 md:(text-3xl mt-2)">
+          <h1 className=" text-center text-xl font-bold text-amber-400 md:(text-2xl mt-2)">
             Our Approach
           </h1>
           <h1 className="mt-2 text-center text-xl font-semibold  italic md:(text-2xl)">
@@ -182,7 +182,7 @@ function Mcyber() {
             </div>
             <div className="">
               <h1 className="font-bold  text-2xl   md:(mt-5)">Response</h1>
-              <p className="pt-2 font-semibold italic text-sm  md:(text-xl) ">
+              <p className="pt-2 font-semibold italic text-sm md:(text-xl) ">
                 Solution: Neutralize and solve the problem for/ with the
                 customer
               </p>
@@ -190,7 +190,7 @@ function Mcyber() {
           </div>
         </div>
         <div className="border-t-4 mt-10 space-y-8  p-4 ">
-          <h1 className="font-bold italic text-xl text-center text-amber-400 pt-8 md:(text-3xl)">
+          <h1 className="font-bold italic text-xl text-center text-amber-400 pt-8 md:(text-2xl)">
             Our Managed Cyber Security Services
           </h1>
           <div className="grid grid-cols-1 gap-5   md:(px-25 grid grid-cols-3  divide-x-3 divide-yellow-400)">
@@ -204,7 +204,7 @@ function Mcyber() {
                 cybersecurity expert to develop and maintain a full-time
                 security program. Get a head start by partnering with{" "}
                 <strong>EXUNOV SARL</strong>
-                <h1 className="px-4 text-yellow-500 text-center font-bold text-xl hover:bg-blue-gray-500">
+                <h1 className="px-4 text-yellow-500 text-center font-bold text-2xl hover:bg-blue-gray-500">
                   <Link to="/read1">Read</Link>
                 </h1>
               </p>
@@ -232,7 +232,7 @@ function Mcyber() {
                 Detection and Management of
                 <br /> intrusions
               </h1>
-              <p className="text-sm p-2 font-semibold italic md:(px-5 text-xl ) ">
+              <p className="text-sm p-2 font-semibold italic md:(px-5 text-xl) ">
                 Protect your entire infrastruture by identifying threats with
                 EXUNOV's comprehensive information security risk management.
                 <h1 className="px-4 text-yellow-500 text-center font-bold  text-xl hover:bg-blue-gray-500">

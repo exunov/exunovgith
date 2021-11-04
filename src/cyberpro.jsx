@@ -26,7 +26,7 @@ function Body1() {
       <div className="head"></div>
       <div className="md:(h-full) menu">
         <nav className=" ">
-          <ul className="geeks flex flex-col text-center text-white md:(grid grid-cols-4 gap-x-3 text-white text-xl  text-center) ">
+          <ul className="geeks flex flex-col text-center text-white md:(grid grid-cols-4 gap-x-3 text-white text-center) ">
             <li>
               <NavLink to="/mcyber">
                 Managed <br />
@@ -60,7 +60,7 @@ function Body2() {
   return (
     <div>
       <div className="mt-4">
-        <h1 className="text-xl font-bold text-amber-400 text-center md:(text-3xl)">
+        <h1 className="text-xl font-bold text-amber-400 text-center md:(text-2xl)">
           Your most powerful tool against cyber attacks is foresight
         </h1>
         <p className="px-4 mt-6 text-sm md:(px-40 text-center text-xl)">
@@ -83,7 +83,7 @@ function Body3() {
   return (
     <div>
       <div className="mt-4 bg-gray-100">
-        <h1 className="text-xl font-bold text-amber-400 text-center  md:(text-3xl) mt-2 p-5">
+        <h1 className="text-xl font-bold text-amber-400 text-center  md:(text-2xl) mt-2 p-5">
           Creating cybersecurity programs from scratch is an overwhelming task.
         </h1>
         <p className="px-4 text-sm  md:(px-40 text-center p-6 text-xl)">
@@ -103,7 +103,7 @@ function Body4() {
   return (
     <section>
       <div>
-        <h1 className="text-xl font-bold text-amber-400 text-center  md:(text-3xl) mt-2 p-5">
+        <h1 className="text-xl font-bold text-amber-400 text-center  md:(text-2xl) mt-2 p-5">
           Threats to watch out for in 2021
         </h1>
         <p className="px-5 text-sm md:(text-center p-6 text-xl)">
@@ -113,22 +113,22 @@ function Body4() {
       </div>
       <div className="grid grid-cols-1 gap-4 p-8  md:(grid grid-cols-1 place-items-center p-10 gap-4)">
         <div className=" bg-gray-100   py-4 px-10 shadow-2xl rounded-b-2xl md:(h-full)">
-          <h1 className="text-center font-bold md:(text-2xl text-xl ) text-amber-400">
+          <h1 className="text-center font-bold md:(text-2xl ) text-amber-400">
             Exploitation of remote work
           </h1>
         </div>
         <div className=" bg-gray-100  py-4 px-4 shadow-2xl rounded-b-2xl md:(h-full)">
-          <h1 className="text-center font-bold md:(text-2xl text-xl ) text-amber-400">
+          <h1 className="text-center font-bold md:(text-2xl) text-amber-400">
             Exploitation of ineffective cyber hygiene
           </h1>
         </div>
         <div className=" bg-gray-100  py-4 px-4 shadow-2xl rounded-b-2xl md:(h-full)">
-          <h1 className="text-center font-bold text-amber-400 md:(text-2xl text-xl )">
+          <h1 className="text-center font-bold text-amber-400 md:(text-2xl)">
             Ransomware
           </h1>
         </div>
         <div className=" bg-gray-100  py-4 px-4 shadow-2xl rounded-b-2xl md:(h-full)">
-          <h1 className="text-center font-bold text-amber-400 md:(text-2xl text-xl )">
+          <h1 className="text-center font-bold text-amber-400 md:(text-2xl)">
             Increased exposure of cloud data
           </h1>
         </div>
@@ -141,7 +141,7 @@ function Body5() {
     <section className=" bg-gray-200 mt-4 md:(grid grid-cols-2 gap-4)">
       <div className="border-t-10 p-4 border-amber-700 mt-4">
         <div className="px-6 ">
-          <h1 className="font-bold text-xl text-center mt-4 md:(text-3xl)">
+          <h1 className="font-bold text-xl text-center mt-4 md:(text-2xl)">
             What Exunov's Cyber program management brings to you
           </h1>
           <p className="mt-4 px-4 text-justify text-sm md:(text-xl)">
@@ -244,7 +244,7 @@ function Body5() {
           </p>
         </div>
       </div>
-      <div className="border-t-10 border-amber-700 mt-4">
+      <div className=" mt-4">
         <div className="px-6">
           <h1 className="font-bold text-xl text-center mt-4 md:(text-3xl)">
             Security
@@ -270,7 +270,7 @@ function Body5() {
           </div>
         </div>
         <div className="px-6 ">
-          <h2 className="font-bold text-xl text-center mt-4 md:(text-3xl)">
+          <h2 className="font-bold text-xl text-center mt-4 md:(text-xl)">
             Our security certificate
           </h2>
           <ul className="list-disc mt-4 px-6">
