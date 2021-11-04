@@ -26,10 +26,12 @@ function Product() {
 
 function Body() {
   return (
-    <div className="product md:(p-40 h-120) ">
+    <div className="product md:(p-30 h-110) h-70 p-20 ">
       <div className="space-y-5">
-        <h1 className="font-bold text-light-200 md:(text-5xl) ">Product</h1>
-        <p className=" md:(text-3xl text-light-100)  hover:text-black">
+        <h1 className="font-bold text-light-200 md:(text-5xl) text-2xl ">
+          Product
+        </h1>
+        <p className=" md:(text-3xl )  text-light-100">
           We present our product through
           <br />
           our partners
@@ -159,7 +161,7 @@ function Body2() {
 
 function Cadrechild() {
   return (
-    <div className="bg-Group9-img bg-cover w-full h-full md:(h-100 mt-8  place-items-center transform transition-all hover:(  translate-y-10) ) ">
+    <div className=" quote bg-cover w-full h-full md:(h-100 mt-8  place-items-center transform transition-all hover:(  translate-y-10) ) ">
       <div className="md:()">
         <img src={quote1} alt="" className="w-full p-2 md:(h-100 px-40   )" />
       </div>

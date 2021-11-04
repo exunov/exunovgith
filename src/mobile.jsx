@@ -22,14 +22,14 @@ function Body() {
       <Headertop />
       <Head />
 
-      <div className="mobile  text-light-100 md:(p-30 h-120) p-8 space-y-5 transform transition-all  ">
-        <h1 className="font-bold text-xl md:(text-5xl)">
+      <div className="mobile  text-light-100 md:(p-20 h-110) h-90   transform transition-all  ">
+        <h1 className="font-bold p-5 text-xl md:(text-4xl p-0)">
           <marquee behavior="" direction="">
             {" "}
             Outsource custom software development
           </marquee>
         </h1>
-        <p className="md:(text-3xl ) text-sm italic">
+        <p className="md:(text-xl  p-15 ) p-10 text-sm italic">
           Exunov with a team of experienced software developers and programers,
           <br />
           state-of-the-art infrastructure, advanced software and latest
@@ -55,7 +55,7 @@ function Body1() {
       </p>
       <div className="  font-semibold font-thin italic md:(flex flex-row divide-x-4 space-x-5  divide-yellow-400 py-5 place-items-center justify-center )">
         <div className="md:()">
-          <ul className="md:(space-y-2 mt-5) ">
+          <ul className="md:(space-y-2) space-y-4 ">
             <div className="flex space-x-4">
               <Puce />
               <li>Respond to native development</li>
@@ -95,7 +95,7 @@ function Body1() {
         </div>
 
         <div className="">
-          <ul className=" space-y-2 ">
+          <ul className=" md:(space-y-2) space-y-4 ">
             <div className="flex space-x-4">
               <Puce /> <li>Progressive development</li>
             </div>
@@ -135,7 +135,7 @@ function Body1() {
         </div>
 
         <div className="">
-          <ul className=" space-y-2 ">
+          <ul className=" md:(space-y-2) space-y-4  ">
             <div className="flex space-x-4">
               <Puce /> <li>HTML5 mobile application development</li>
             </div>
@@ -184,10 +184,10 @@ function Body1() {
 
 function Puce() {
   return (
-    <div className="md:(text-5xl text-amber-400 hover:animate-none)4 text-amber-600 text-2xl">
+    <div className="md:( text-amber-400 hover:animate-none) text-amber-600">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class=" w-6 md:(w-10)"
+        class=" w-6 md:(w-6)"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"

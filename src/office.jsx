@@ -41,7 +41,7 @@ function Body1() {
 
       <div className=" md:(h-full) menu">
         <nav className=" ">
-          <ul className="geeks flex flex-col text-center text-white text-xl md:(grid grid-cols-3 gap-3 text-white text-4xl place-items-center) ">
+          <ul className="geeks flex flex-col text-center text-white text-xl  md:(grid grid-cols-3  text-white  place-items-center )  ">
             <li>
               <NavLink exact activeClassname="active" to="/mcloud">
                 AWS
@@ -72,7 +72,7 @@ function Body2() {
   return (
     <section>
       <div className="mt-4">
-        <h1 className="text-xl font-bold text-center text-amber-400 md:(text-4xl mt-8) px-4 ">
+        <h1 className="text-xl font-bold text-center text-amber-400 md:(text-2xl mt-8) px-4 ">
           Boost your productivity with our Microsoft 365 solutions
         </h1>
         <p className="text-justify px-10  text-sm md:(text-xl px-50) mt-2">
@@ -87,7 +87,7 @@ function Body2() {
         </p>
       </div>
       <div className="mt-8">
-        <h2 className="text-xl font-bold text-amber-400 text-center md:(text-4xl) px-4">
+        <h2 className="text-xl font-bold text-amber-400 text-center md:(text-2xl) px-4">
           How can EXUNOV help with Microsoft 365?
         </h2>
         <p className="text-justify px-10  text-sm md:(text-xl px-50) mt-4">
@@ -108,7 +108,7 @@ function Body3() {
   return (
     <section>
       <div className="mt-2 bg-gray-200 p-5">
-        <h1 className="mt-4 px-4 text-amber-400 text-xl font-bold text-center md:(px-20 text-4xl)">
+        <h1 className="mt-4 px-4 text-amber-400 text-xl font-bold text-center md:(px-20 text-2xl)">
           Benefits of Microsoft licensing via Dataprise :
         </h1>
         <p className="mt-4 px-10 md:(px-50) text-sm md:(text-xl)">
@@ -149,7 +149,7 @@ function Body4() {
   return (
     <section>
       <div className="bg-gray-100 p-6">
-        <h1 className="mt-4 px-4 text-amber-400 text-xl font-bold text-center md:(px-20 text-4xl)">
+        <h1 className="mt-4 px-4 text-amber-400 text-xl font-bold text-center md:(px-20 text-2xl)">
           Additional services EXUNOV
         </h1>
         <p className="mt-4 px-10 md:(px-50)  text-sm md:(text-xl)">
@@ -170,7 +170,7 @@ function Body5() {
   return (
     <section>
       <div className="mt-4 shadow-2xl  rounded-xl p-4">
-        <h1 className="font-bold px-4 text-center text-amber-400 text-xl md:(text-4xl)">
+        <h1 className="font-bold px-4 text-center text-amber-400 text-xl md:(text-2xl)">
           Microsoft 365 Accelerators
         </h1>
         <p className="text-sm px-4 mt-4 md:(text-xl px-50) text-justify">
@@ -220,10 +220,10 @@ function Body6() {
   return (
     <section>
       <div className="mt-4">
-        <h1 className="font-bold text-xl mt-4 text-center md:(text-3xl )">
+        <h1 className="font-bold text-xl mt-4 text-center md:(text-xl )">
           EXUNOV is a Microsoft cloud solutions provider
         </h1>
-        <p className="text-sm mt-4 px-4 md:(text-xl px-50)">
+        <p className="text-sm mt-4 px-4 md:( px-50)">
           Exunov is a Microsoft Cloud Solution Provider (CSP) partner. By
           partnering with Exunov for your Microsoft cloud license, we offer the
           same price as Microsoft, but with the added benefits of 24/7 dedicated
@@ -239,7 +239,7 @@ function Body7() {
   return (
     <section>
       <div className="mt-4 bg-gray-100">
-        <h1 className="font-bold text-xl mt-4 text-center text-amber-400 p-4 md:(text-4xl )">
+        <h1 className="font-bold text-xl mt-4 text-center text-amber-400 p-4 md:(text-2xl )">
           Why choose Exunov for your organization's Microsoft 365 migration?
         </h1>
         <p className="text-sm px-4 md:(text-xl px-50 )p-8 ">
@@ -307,16 +307,16 @@ function Body8() {
   return (
     <section>
       <div className="mt-4 border-4 w-full">
-        <h1 className="mt -4 px-4 text-amber-400 text-xl text-center font-bold p-6 md:(text-4xl )">
+        <h1 className="mt -4 px-4 text-amber-400 text-xl text-center font-bold p-6 md:(text-2xl )">
           {" "}
           Maximize your investment in Microsoft 365 services with Dataprise
         </h1>
       </div>
       <div className="mt-4">
-        <h2 className="mt -4 px-4 text-amber-400 text-xl text-center md:(text-2xl )">
+        <h2 className="mt -4 px-4 text-amber-400 text-xl text-center md:(text-xl )">
           Need a Microsoft 365 consultant
         </h2>
-        <h3 className="mt -4 px-4 text-xl text-center font-bold md:(text-2xl )">
+        <h3 className="mt -4 px-4 text-xl text-center font-bold md:(text-xl )">
           Does your company need a Microsoft 365 consultant?
         </h3>
         <p className="mt-4 text-sm px-4 md:(text-xl px-50) text-justify">
@@ -330,7 +330,7 @@ function Body8() {
       </div>
 
       <div className="mt-4">
-        <h2 className="mt -4 px-4 text-amber-400 text-xl text-center md:(text-2xl )">
+        <h2 className="mt -4 px-4 text-amber-400 text-xl text-center md:(text-xl )">
           Win in IT with Microsoft Business Solutions
         </h2>
         <p className="mt-4 text-sm px-4 md:(text-xl px-50) text-justify">

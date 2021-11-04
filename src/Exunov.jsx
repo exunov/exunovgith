@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "./header";
 import Headertop from "./headertop";
-import "./contact.css";
+import "./back.css";
 import quote1 from "./images/Group6.png";
 import Footer from "./footer";
 import Slide from "./component/slider";
@@ -10,7 +10,7 @@ import Carouse from "./component/slider";
 
 function Exunov() {
   return (
-    <div className="space-y-10">
+    <div>
       <Headertop />
       <Head />
       <Body />
@@ -26,12 +26,9 @@ function Exunov() {
 
 function Body() {
   return (
-    <div className="bg-contact-img bg-cover md:(p-15)">
-      <div className="text-light-100 space-y-5 p-3  md:(p-15)">
-        <h1 className="text-4xl font-bold md:(text-5xl italic)">
-          {" "}
-          Exunov Enterprise
-        </h1>
+    <div className=" exunov bg-cover  md:(py-5 h-110)">
+      <div className="text-light-100 space-y-5 p-3  md:( p-30)">
+        <h1 className="text-4xl font-bold md:(text-5xl)"> Exunov Enterprise</h1>
         <p className="md:(text-2xl)">
           Cybersecurity, Software Development,
           <br />
@@ -48,7 +45,7 @@ function Puce() {
 
 function Formulaire() {
   return (
-    <div className="flex flex-col shadow-2xl  mt-8 border-1 rounded-2xl p-2 md:(mx-80 )">
+    <div className="flex flex-col shadow-2xl  mt-8 border-1 rounded-2xl p-2 md:(ml-40 mr-30 mt-20 )">
       <form action="" className=" ">
         <h1 className="text-center font-bold text-2xl md:( mt-2 text-2xl underline) ">
           Request a quote
@@ -62,7 +59,7 @@ function Formulaire() {
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100)  h-10 w-70 p-2 md:(h-15 w-full rounded-2xl ) "
+              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w-50 p-2  md:(h-12 w-full )"
             />
           </div>
 
@@ -73,7 +70,7 @@ function Formulaire() {
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100)  h-10 w-70 p-2  md:(h-15 w-full )  "
+              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300 h-10 w-70 p-2  md:(h-12 w-full )  "
             />
           </div>
 
@@ -84,7 +81,7 @@ function Formulaire() {
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100)  h-10 w-70 p-2  md:(h-15 w-full )  "
+              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300 h-10 w-70 p-2  md:(h-12 w-full )  "
             />
           </div>
 
@@ -95,7 +92,7 @@ function Formulaire() {
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100)  h-10 w-70 p-2  md:(h-15 w-full )  "
+              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300 h-10 w-70 p-2  md:(h-12 w-full )  "
             />
           </div>
 
@@ -106,7 +103,7 @@ function Formulaire() {
             </label>
             <textarea
               type="text"
-              className="h-10 w-70 p-2   md:(h-10 w-full ) "
+              className="h-10 w-70 p-2   md:(h-10 w-full ) bg-gray-300 "
             />
           </div>
         </div>
@@ -132,7 +129,7 @@ function Formulaire() {
         </div>
         <button
           type="submit"
-          className=" bg-yellow-500  text-light-900 border-2 rounded-lg h-10   hover:(bg-white text-dark-100) md:(text-3xl font-thin ml-40 w-70 h-12 ) "
+          className=" bg-yellow-500  text-light-900 border-2 rounded-lg h-10  md:(text-3xl font-thin ml-50 w-40 h-15 ) "
         >
           Submit
         </button>

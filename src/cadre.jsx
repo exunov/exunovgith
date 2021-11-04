@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./back.css";
 import quote1 from "./images/Group6.png";
 import triangle1 from "./images/Polygon1.png";
 import triangle2 from "./images/Polygon2.png";
@@ -10,7 +10,6 @@ function Cadre() {
   return (
     <div className="mt-10 ">
       <Cadrechild />
-
       <Exunumder />
     </div>
   );
@@ -18,9 +17,9 @@ function Cadre() {
 
 function Cadrechild() {
   return (
-    <div className="bg-Group9-img bg-cover w-full h-full ">
+    <div className=" quote bg-cover w-full h-full md:(h-100 mt-8  place-items-center transform transition-all hover:(  translate-y-10) ) ">
       <div className="md:()">
-        <img src={quote1} alt="" className="w-full p-2" />
+        <img src={quote1} alt="" className="w-full p-2 md:(h-100 px-40   )" />
       </div>
     </div>
   );

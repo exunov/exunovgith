@@ -77,10 +77,10 @@ function HautText() {
   return (
     <section>
       <div className="md:(px-40) px-5">
-        <h1 className="text-xl font-bold text-amber-400 text-center mt-8 p-4 md:(text-3xl )">
+        <h1 className=" font-bold text-amber-400 text-center mt-8 md:(text-2xl )">
           Managing IT infrastructure is complex, exhausting and thankless.
         </h1>
-        <p className="px-4 text-sm md:(text-xl px-60) mt-4 ">
+        <p className="px-4 text-sm md:(text-xl px-40) mt-4 ">
           Managing and resolving IT infrastructure issues is a huge burden for
           SMBs. Not only is it time-consuming, but business operations are
           disrupted by incidents. You are faced with a growing and increasingly
@@ -92,7 +92,7 @@ function HautText() {
         </p>
       </div>
       <div className=" pt-6">
-        <h1 className="text-xl text-center text-amber-400 font-bold md:(text-3xl)">
+        <h1 className=" text-center text-amber-400 font-bold md:(text-2xl)">
           What issues are you most concerned about?
         </h1>
       </div>
@@ -114,7 +114,7 @@ function HautP() {
   return (
     <section>
       <div className="bg-gray-100 px-5 mt-4 md:(px-40 h-50)">
-        <h1 className="text-xl font-bold text-amber-400 text-center mt-8 p-4 md:(text-3xl)">
+        <h1 className=" font-bold text-amber-400 text-center mt-8 p-4 md:(text-2xl)">
           Our managed infrastructure has unmatched end-to-end capabilities.
         </h1>
         <p className="px-4 text-sm md:(text-xl mx-30 ) ">
@@ -134,7 +134,7 @@ function HautListe() {
   return (
     <section className="bg-gray-100 md:(mt-20 py-4)">
       <div className="flex items-center justify-center ">
-        <h1 className="text-2xl text-amber-400 font-bold md:(text-3xl) mt-2">
+        <h1 className=" text-amber-400 font-bold md:(text-3xl) mt-2">
           Key Benefits
         </h1>
       </div>

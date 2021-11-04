@@ -1,5 +1,6 @@
 import React from "react";
 import "./sectio.css";
+import "./back.css";
 import "./paragraph.css";
 import { NavLink } from "react-router-dom";
 import eye1 from "./images/eye1.png";
@@ -47,14 +48,9 @@ function Menu() {
 
       <div className=" md:(h-full) menu">
         <nav className=" ">
-          <ul className="geeks  flex flex-col text-center text-white text-xl  md:(grid grid-cols-3  text-white text-4xl place-items-center ) ">
+          <ul className="geeks  flex flex-col text-center text-white text-xl  md:(grid grid-cols-3  text-white  place-items-center ) ">
             <li>
-              <NavLink
-                exact
-                activeClassname="active"
-                to="/mcloud"
-                className=" mt-1"
-              >
+              <NavLink exact activeClassname="active" to="/mcloud">
                 AWS
               </NavLink>
             </li>
@@ -63,13 +59,12 @@ function Menu() {
                 activeClassname="active"
                 to="/azure"
                 className="geeks a "
-                className=" mt-1"
               >
                 Azure
               </NavLink>
             </li>
             <li className="">
-              <NavLink activeClassname="active" to="/office" className=" mt-1">
+              <NavLink activeClassname="active" to="/office">
                 Office 365
               </NavLink>
             </li>
@@ -148,14 +143,14 @@ function Text() {
   return (
     <div className="mt-150 px-4 space-y-4    md:(space-y-10 mt-40 p-40 place-items-center font-thin ) ">
       <div className="md:(border-1 bg-gray-100 rounded-2xl shadow-2xl border-b-yellow-600 border-b-4 )">
-        <p className=" px-10 py-10 text-center">
+        <p className=" text-sm text-justify p-2 md:(px-10 py-10 text-center)">
           According to analyst firm Canalys, by early 2021, AWS has taken 31% of
           the global cloud market, outpacing other hyper-scalers. The closest
           competitors are Azure (20%) and Google (7%).
         </p>
       </div>
       <div className="pt-4 md:( border-1 bg-gray-100 rounded-2xl shadow-2xl border-b-yellow-600 border-b-4 )">
-        <p className=" px-10 py-10 text-center">
+        <p className=" text-sm text-justify p-2 md:(px-10 py-10 text-center)">
           AWS offers more than 200 comprehensive, fully functional services for
           all tasks. The platform allows you to build your own infrastructure
           from scratch - or use out-of-the-box solutions, reducing your IT
@@ -163,13 +158,13 @@ function Text() {
         </p>
       </div>
       <div className="pt-4 md:( border-1 bg-gray-100 rounded-2xl shadow-2xl border-b-yellow-600 border-b-4 )">
-        <p className=" px-10 py-10 text-center">
+        <p className=" text-sm text-justify p-2 md:(px-10 py-10 text-center)">
           The platform provides mobile, web and business applications, data
           processing and storage, backup and other features.
         </p>
       </div>
       <div className="pt-4 md:( border-1 bg-gray-100 border-b-yellow-600 border-b-4 rounded-2xl shadow-2xl )">
-        <p className=" px-10 py-10 text-center">
+        <p className="text-sm text-justify p-2 md:(px-10 py-10 text-center)">
           AWS launches in new regions faster than competitors; it's the most
           in-demand hyper-scaler in the world. Large companies like Netflix,
           LinkedIn and Facebook choose AWS solutions.

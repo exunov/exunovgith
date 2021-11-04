@@ -75,60 +75,58 @@ function Body1() {
 function Body2() {
   return (
     <section className="">
-      <div className=" space-y-6 md:(px-4 )">
-        <div className="mt-4 px-6 md:(mt-4)">
-          <h1 className="mt-4 text-amber-400 text-center font-bold text-xl md:(text-3xl)">
-            Managed Infrastructure: Network Management Solutions
-          </h1>
-          <p className="space-y-4 text-sm mt-4 md:(px-50 text-xl)">
-            The abundance of data, devices, and requirements puts pressure on
-            the network. Solution providers who are in the business of
-            facilitating the user experience must prepare their networks for
-            proper management and maintenance. Our approach to network
-            management solutions gives you the confidence that your
-            infrastructure is running optimally. EXUNOV provides the tools and
-            services your business needs for continuous connectivity.{" "}
-          </p>
-        </div>
-        <div className="pt-4 px-6">
-          <h1 className="mt-4 text-amber-400 text-center font-bold text-xl md:(text-3xl)">
-            Key Benefits of Managed Network Services:
-          </h1>
-          <p className="mt-4 text-sm  md:(mx-30 text-xl)">
-            Turn the card over to reveal each key benefit of network management
-            solutions.{" "}
-          </p>
-          <ul className="list-none mt-6 space-y-4 md:(mx-40 text-xl)">
-            <div className="flex space-x-3">
-              <Puce />
-              <li className="mt-3">
-                Get business performance results with faster networks, better
-                resiliency, and managed network services.
-              </li>
-            </div>
-            <div className="flex space-x-3">
-              <Puce />
-              <li className="mt-3">
-                Managed network services reduce costs by reducing network
-                configuration time.
-              </li>
-            </div>
-            <div className=" flex space-x-3">
-              <Puce />
-              <li className="mt-3">
-                Network management solutions reduce risk and improve the
-                security of your network infrastructure.{" "}
-              </li>
-            </div>
-            <div className="flex space-x-3">
-              <Puce />
-              <li className="mt-3">
-                Automate IT processes and improve application and end-user
-                experience with managed network services.{" "}
-              </li>
-            </div>
-          </ul>
-        </div>
+      <div className="md:(px-40) px-5">
+        <h1 className=" font-bold text-amber-400 text-center mt-8 md:(text-2xl )">
+          Managed Infrastructure: Network Management Solutions
+        </h1>
+        <p className="space-y-4 text-sm mt-4 md:(px-50 text-xl)">
+          The abundance of data, devices, and requirements puts pressure on the
+          network. Solution providers who are in the business of facilitating
+          the user experience must prepare their networks for proper management
+          and maintenance. Our approach to network management solutions gives
+          you the confidence that your infrastructure is running optimally.
+          EXUNOV provides the tools and services your business needs for
+          continuous connectivity.{" "}
+        </p>
+      </div>
+      <div className="pt-4 px-6">
+        <h1 className="mt-4 text-amber-400 text-center font-bold  md:(text-2xl)">
+          Key Benefits of Managed Network Services:
+        </h1>
+        <p className="mt-4 text-sm  md:(mx-30 text-xl)">
+          Turn the card over to reveal each key benefit of network management
+          solutions.{" "}
+        </p>
+        <ul className="list-none mt-6 space-y-4 md:(mx-40 text-xl)">
+          <div className="flex space-x-3">
+            <Puce />
+            <li className="mt-3">
+              Get business performance results with faster networks, better
+              resiliency, and managed network services.
+            </li>
+          </div>
+          <div className="flex space-x-3">
+            <Puce />
+            <li className="mt-3">
+              Managed network services reduce costs by reducing network
+              configuration time.
+            </li>
+          </div>
+          <div className=" flex space-x-3">
+            <Puce />
+            <li className="mt-3">
+              Network management solutions reduce risk and improve the security
+              of your network infrastructure.{" "}
+            </li>
+          </div>
+          <div className="flex space-x-3">
+            <Puce />
+            <li className="mt-3">
+              Automate IT processes and improve application and end-user
+              experience with managed network services.{" "}
+            </li>
+          </div>
+        </ul>
       </div>
     </section>
   );
@@ -189,7 +187,7 @@ function Body4() {
   return (
     <section>
       <div className="pt-4 px-6 md:(mt-8)">
-        <h1 className="mt-4 text-amber-400 text-center font-bold text-xl md:(text-3xl)">
+        <h1 className="mt-4 text-amber-400 text-center font-bold md:(text-2xl)">
           Our network management solutions :
         </h1>
         <div className=" px-2 space-y-4 font-thin md:(flex flex-row divide-x-3 mt-4 divide-yellow-500 flex items-center justify-center text-xl )">

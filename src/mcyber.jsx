@@ -3,6 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import Headertop from "./headertop";
 import Head from "./header";
 import "./sectio.css";
+import "./back.css";
 import "./menunav.css";
 import quote1 from "./images/Group6.png";
 import Footer from "./footer";
@@ -291,7 +292,7 @@ function MenuButton(props) {
 
 function Cadrechild() {
   return (
-    <div className="bg-Group9-img bg-cover w-full h-full md:(h-100 mt-8  place-items-center transform transition-all hover:(  translate-y-10) ) ">
+    <div className=" quote bg-cover w-full h-full md:(h-100 mt-8  place-items-center transform transition-all hover:(  translate-y-10) ) ">
       <div className="md:()">
         <img src={quote1} alt="" className="w-full p-2 md:(h-100 px-40   )" />
       </div>

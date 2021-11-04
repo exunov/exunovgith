@@ -4,7 +4,7 @@ import "./back.css";
 
 function Globecenter() {
   return (
-    <div className=" p-5 md:(h-full p-10)  home space-y-5  ">
+    <div className=" p-5 md:(h-110 p-10)  home space-y-8  ">
       <p className="font-bold text-light-200 text-3xl md:(text-5xl) ">
         Cybersecurity
         <br />
@@ -20,7 +20,7 @@ function Globecenter() {
           <br />
           service and security awareness training
         </p>
-        <div className="items-center space-x-5 flex flex-row md:( flex flex-row space-x-5 mt-5 )">
+        <div className="items-center space-x-5 flex flex-row mt-5 md:( flex flex-row space-x-5)">
           <button
             type="submit"
             className=" bg-black p-2 bg-opacity-70 text-light-900 border-2 border-white-600 hover:(bg-black) rounded-lg md:(text-2xl rounded-xm)"

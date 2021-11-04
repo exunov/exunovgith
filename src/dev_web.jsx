@@ -31,15 +31,15 @@ function Devweb() {
 function Body() {
   return (
     <div>
-      <div className=" web md:(p-30 h-120 ) p-10 space-y-5 ">
-        <p className="space-y-2 text-white text-left md:(space-y-8 )">
-          <h1 className="font-bold text-xl md:(text-5xl)">
+      <div className=" web   text-light-100 md:(p-10 h-110  space-y-5) h-90  ">
+        <p className="space-y-2  text-white  md:(space-y-8 p-15 )">
+          <h1 className="font-bold p-5 text-xl md:(text-4xl p-0)">
             <marquee behavior="" direction="">
               {" "}
               Outsource custom software development
             </marquee>
           </h1>
-          <p className=" text-sm md:(text-3xl ) italic">
+          <p className="  md:(text-xl p-0 ) p-10 italic">
             Exunov with a team of experienced software developers and
             programers,
             <br />

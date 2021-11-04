@@ -77,17 +77,19 @@ function Body1() {
 function Body2() {
   return (
     <div>
-      <h1 className="px-3 text-center font-bold text-amber-400 text-xl md:(text-3xl)">
-        Act quickly without straying from what is important{" "}
-      </h1>
-      <div className="px-10   md:(px-60 p-2)">
-        <p className="text-sm md:(text-xl )">
-          Optimal equipment with the right configuration is necessary for your
-          users as your organization grows. We handle imaging inventory and
-          endpoint management to take the burden of user device configuration
-          off your shoulders so you and your staff can focus on growing your
-          organization.{" "}
-        </p>
+      <div className="md:(px-40) px-5">
+        <h1 className=" font-bold text-amber-400 text-center mt-8 md:(text-2xl )">
+          Act quickly without straying from what is important{" "}
+        </h1>
+        <div className="px-10   md:(px-60 )">
+          <p className="text-sm mt-4 md:(text-xl )">
+            Optimal equipment with the right configuration is necessary for your
+            users as your organization grows. We handle imaging inventory and
+            endpoint management to take the burden of user device configuration
+            off your shoulders so you and your staff can focus on growing your
+            organization.{" "}
+          </p>
+        </div>
       </div>
     </div>
   );
@@ -96,7 +98,7 @@ function Body2() {
 function Body3() {
   return (
     <div className="mt-4">
-      <h1 className="text-center font-bold text-amber-400 text-xl md:(text-3xl)">
+      <h1 className="text-center font-bold text-amber-400  md:(text-2xl)">
         Device imaging and endpoint inventory management{" "}
       </h1>
       <div className=" px-10 mt-4 md:(px-60 p-2 )">
@@ -121,7 +123,7 @@ function Body4() {
   return (
     <div className="bg-gray-100">
       <div className=" mt-4">
-        <h1 className="px-2 text-center font-bold text-amber-400 text-xl md:(text-3xl)">
+        <h1 className="px-2 text-center font-bold text-amber-400  md:(text-2xl)">
           Terminal inventory management
         </h1>
         <div className=" px-10 md:(px-60 p-2)">
@@ -142,7 +144,7 @@ function Body4() {
         </div>
       </div>
       <div className=" mt-4">
-        <h1 className="text-center font-bold text-amber-400 text-xl md:(text-3xl)">
+        <h1 className="text-center font-bold text-amber-400  md:(text-2xl)">
           Outsourced Help Desk: A team dedicated to your success
         </h1>
         <div className=" px-10 md:(px-60 p-2)">

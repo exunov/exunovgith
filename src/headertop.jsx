@@ -18,22 +18,23 @@ function Headertop() {
 function Haut() {
   return (
     <div className="">
-      <div className=" hidden  md:(flex h-15 p-4 space-x-5 justify-between  w-full bg-amber-400 text-light-50)">
+      <div className=" hidden  md:(flex h-15 p-5 space-x-5 justify-between  w-full bg-amber-400 text-light-50)">
         <div className="hidden md:(flex) space-x-10">
-          <div className="flex space-x-3">
+          <div className="flex space-x-5">
             <img src={face} alt="" className="w-6 h-6 md:(w-6 h-6) " />
             <img src={twiter} alt="" className="w-6 h-6 " />
             <img src={insta} alt="" className="w-6 h-6" />
             <img src={linke} alt="" className="w-6 h-6" />
+            <img src={envelop} alt="" className="w-6 h-7" />
           </div>
-          <img src={envelop} alt="" className="w-6 h-6" />
-          <div className="flex flex-row space-x-3">
+
+          <div className="flex flex-row space-x-4 mr-10">
             <Phone />
             <p className="text-xl font-bold">+229 99 54 59 59</p>
           </div>
         </div>
         <div className="">
-          <div className="text-xm flex space-x-2 mr-10 font-thin md:(h-10 mr-20 text-xl font-thin)  items-start">
+          <div className="text-xm flex space-x-2 mr-10 font-thin md:(h-10 mr-20  font-thin)  items-start">
             <div>
               <ul className="flex  space-x-3 font-semibold">
                 <li>
@@ -66,7 +67,7 @@ function Phone() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-7 w-8"
+      className="h-6 "
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"

@@ -47,7 +47,7 @@ function Body1() {
 
       <div className=" md:(h-full) menu">
         <nav className=" ">
-          <ul className="geeks flex flex-col text-center text-white text-xl md:(grid grid-cols-3 gap-3 text-white text-4xl place-items-center) ">
+          <ul className="geeks flex flex-col text-center text-white text-xl  md:(grid grid-cols-3  text-white  place-items-center )  ">
             <li>
               <NavLink exact activeClassname="active" to="/mcloud">
                 AWS
@@ -155,8 +155,8 @@ function Body2() {
 function Body3() {
   return (
     <section>
-      <div className="mt-180 px-15 md:( mt-70 px-22)">
-        <p className="md:(px-50)">
+      <div className="mt-180 p-5 md:( mt-70 px-22)">
+        <p className=" text-sm text-justify md:(text-xl px-50)">
           Microsoft Azure is an open and flexible cloud platform. It enables
           rapid deployment of IT infrastructures of any complexity and supports
           a wide range of applications, databases, development platforms, and
@@ -226,7 +226,7 @@ function Body5() {
           <h1 className="mt-2 px-4 text-xl text-amber-400  md:(text-xl  text-amber-400 font-bold)">
             Migration and sizing, full support of the solution
           </h1>
-          <p className="mt-4 px-4">
+          <p className="text-sm  mt-4 px-4 md:(text-xl) ">
             Investigate your needs, calculate the amount of computing resources
             you require and choose the configuration that best suits your needs.
             We suggest ways to balance your IT budget with changing needs as
@@ -259,7 +259,7 @@ function Body5() {
           <h1 className="mt-2 px-4 text-xl text-amber-400 md:(text-2xl font-bold)">
             Consultation
           </h1>
-          <p className="mt-4 px-4">
+          <p className="text-sm mt-4 px-4 md:(text-xl) ">
             We will guide you through our portfolio of suppliers and prepare the
             best possible offer.
             <br />
@@ -271,7 +271,7 @@ function Body5() {
           <h1 className="mt-2 px-4 text-xl text-amber-400  md:(text-2xl font-bold)">
             Data backup and recovery
           </h1>
-          <p className="mt-4 px-4">
+          <p className="text-sm mt-4 px-4 md:(text-xl) ">
             We offer backup and recycling services. Our data and applications
             are always available, reducing the risk of loss due to downtime
             issues.
@@ -281,7 +281,7 @@ function Body5() {
           <h1 className="mt-2 px-4 text-xl text-amber-400 md:(text-2xl font-bold)">
             Save time and money
           </h1>
-          <p className="mt-4 px-4">
+          <p className="text-sm mt-4 px-4 md:(text-xl) ">
             All Azure services are available for refundable VAT payments in
             rubles. Due to different exchange rates, you do not have to pay,
             pass currency management or create a currency transaction report
@@ -326,15 +326,15 @@ function Body7() {
       <h1 className="text-center px-10 text-xl font-bold text-amber-400 md:(text-3xl)">
         Our Focus Areas in Cloud Management
       </h1>
-      <p className="mt-4 text-center px-6 md(text-xl)">
+      <p className="mt-4 text-sm text-center px-6 md(text-xl)">
         Focus on your key business issues and let us manage your cloud
         infrastructure in the following areas:
       </p>
       <div>
-        <h1 className="mt-4 px-20 text-3xl font-bold text-center">
+        <h1 className="mt-4 md:(px-20 text-3xl) font-bold text-center">
           Infrastructure Services
         </h1>
-        <p className="mt-4 px-10 md:( text-xl)">
+        <p className="mt-4 text-sm px-10 md:( text-xl)">
           Design and implement Azure IT infrastructure and services to provide
           24/7 support.
           <br />
@@ -342,12 +342,14 @@ function Body7() {
           and development capabilities.
         </p>
       </div>
-      <Puce />
+      <div className="hidden md:(flex pl-100) ">
+        <Puce />
+      </div>
       <div>
-        <h1 className="mt-4 px-20 text-3xl font-bold text-center">
+        <h1 className="mt-4 text-xl md:(px-20 text-2xl) font-bold text-center">
           Development and testing
         </h1>
-        <p className="mt-4 px-10 md:(px-50)">
+        <p className="mt-4 px-10 text-sm md:(text-xl px-50)">
           Create a development and test environment in seconds.
           <br />
           As part of your team, our specialists ensure the careful integration
@@ -361,9 +363,11 @@ function Body7() {
           </ul>
         </p>
       </div>
-      <Puce />
+      <div className="hidden md:(flex pl-100) ">
+        <Puce />
+      </div>
       <div>
-        <h1 className="mt-4 px-20 text-xl font-bold text-center md:(text-3xl)">
+        <h1 className="mt-4 text-xl font-bold text-center md:(text-2xl  px-20)">
           Compliance with safety standards
         </h1>
         <p className="mt-4 px-10 md:(px-50)">
@@ -384,7 +388,7 @@ function Body8() {
         Why Exunov
       </h1>
       <p>
-        <ul className="list-disc list-inside mt-4 px-10 md:(text-xl text-center) ">
+        <ul className="list-disc text-sm list-inside mt-4 px-10 md:(text-xl text-center) ">
           <li>Optimize your quality/price/performance ratio</li>
           <li>Implement your service quality requirements via SLA</li>
           <li>Pay for services in Russian rubles and refund VAT</li>
@@ -420,7 +424,7 @@ function Icon() {
 }
 function Puce() {
   return (
-    <div className=" text-amber-400 text-4xl text-center mt-10 ">
+    <div className=" md:( text-amber-400 text-4xl text-center mt-10 )">
       ***************************
     </div>
   );

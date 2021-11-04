@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "./header";
 import Headertop from "./headertop";
-import "./contact.css";
+import "./back.css";
 import quote1 from "./images/Group6.png";
 import Footer from "./footer";
 import drapeau1 from "./images/benin.png";
@@ -28,7 +28,7 @@ function Contactus() {
 
 function Body() {
   return (
-    <div className="bg-Group12-img bg-cover  md:(py-5)">
+    <div className=" contact bg-cover  md:(py-5 h-110)">
       <div className="text-light-100 space-y-5 p-3  md:( p-30)">
         <h1 className="text-4xl font-bold md:(text-5xl)"> Contact</h1>
         <p className="md:(text-2xl)">
@@ -60,7 +60,7 @@ function Formulaire() {
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w-70 p-2 md:(h-15 w-full rounded-2xl ) "
+              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w50  p-2 md:(h-12 w-full rounded-2xl ) "
             />
           </div>
 
@@ -71,7 +71,7 @@ function Formulaire() {
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100)  bg-gray-300 h-10 w-70 p-2  md:(h-15 w-full )  "
+              className="rounded-2xl hover:(placeholder-light-100)  bg-gray-300 h-10 w-50 p-2  md:(h-12 w-full )  "
             />
           </div>
 
@@ -82,7 +82,7 @@ function Formulaire() {
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w-70 p-2  md:(h-15 w-full )  "
+              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w-50 p-2  md:(h-12 w-full )  "
             />
           </div>
 
@@ -93,7 +93,7 @@ function Formulaire() {
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w-70 p-2  md:(h-15 w-full )  "
+              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w-50 p-2  md:(h-12 w-full )  "
             />
           </div>
 
@@ -185,125 +185,125 @@ function Body2() {
 
 function Drapeau() {
   return (
-    <div className="flex flex-col border-3 rounded-xl border-blue-gray-500 space-y-8 ">
-      <h1 className="font-bold text-center text-xl md:(text-3xl)">
+    <div className=" flex flex-col md:( border-3 rounded-xl border-blue-gray-500  ) space-y-10 ">
+      <h1 className="font-bold text-center text-xl md:(text-2xl)">
         Our Location
       </h1>
 
-      <div className="md:(grid grid-cols-3 divide-x-3 divide-amber-500 space-x-5 p-3 )">
-        <div className="flex flex-col space-y-10 p-4 ">
-          <div className="flex flex-row space-x-2 justify-center items-center">
+      <div className="md:(flex flex-row grid grid-cols-3 divide-amber-500 divide-x-4 space-x-5)">
+        <div className="flex flex-col space-y-10 justify-center items-center ">
+          <div className="flex flex-row space-x-2 ">
             <img src={drapeau1} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-2xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-6 text-sm md:(text-xl) ">
               {" "}
-              Benin
+              Bénin
             </h2>
           </div>
           <div className="flex flex-row space-x-10">
             <h3 className="font-semibold italic md:(text-xl)">Adresse: </h3>
-            <p className=" md:(text-xl)">Cotonou</p>
+            <p>Cotonou</p>
           </div>
 
           <div className="flex flex-row ">
-            <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
-            <p className=" md:(text-xl)">+229 99 54 59 59</p>
+            <h3 className="font-semibold italic md:(text-xl)">Téléphone</h3>
+            <p>+229 99 54 59 59</p>
           </div>
         </div>
 
-        <div className="flex flex-col space-y-10 p-5">
-          <div className="flex flex-row space-x-2 justify-center items-center">
+        <div className="flex flex-col space-y-10  justify-center items-center">
+          <div className="flex flex-row space-x-2 ">
             <img src={drapeau2} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-2xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-xl) ">
               {" "}
-              Côte d'Ivoire
+              Côte d'ivoire
             </h2>
           </div>
           <div className="flex flex-row space-x-10">
             <h3 className="font-semibold italic md:(text-xl)">Adresse: </h3>
-            <p className=" md:(text-xl)">Abidjan</p>
+            <p>Abidjan</p>
           </div>
 
           <div className="flex flex-row ">
-            <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
-            <p className=" md:(text-xl)"></p>
+            <h3 className="font-semibold italic md:(text-xl)">Téléphone: </h3>
+            <p></p>
           </div>
         </div>
 
-        <div className="flex flex-col space-y-10 p-5">
-          <div className="flex flex-row space-x-2 justify-center items-center">
+        <div className="flex flex-col space-y-10 justify-center items-center ">
+          <div className="flex flex-row space-x-2 ">
             <img src={drapeau3} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-2xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-xl) ">
               {" "}
               Ghana
             </h2>
           </div>
           <div className="flex flex-row space-x-10">
             <h3 className="font-semibold italic md:(text-xl)">Adresse: </h3>
-            <p className=" md:(text-xl)">Accra</p>
+            <p>Accra</p>
           </div>
 
           <div className="flex flex-row ">
-            <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
-            <p className=" md:(text-xl)"></p>
+            <h3 className="font-semibold italic md:(text-xl)">Téléphone: </h3>
+            <p></p>
           </div>
         </div>
       </div>
 
-      <div className="md:(grid grid-cols-3 divide-x-3 divide-amber-500 space-x-5)">
-        <div className="flex flex-col space-y-10 p-4">
-          <div className="flex flex-row space-x-2 justify-center items-center">
+      <div className="md:(grid grid-cols-3 divide-amber-500 divide-x-4 space-x-5)">
+        <div className="flex flex-col space-y-10 justify-center items-center">
+          <div className="flex flex-row space-x-2">
             <img src={drapeau4} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-2xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-xl) ">
               {" "}
-              Senegal
+              Sénegale
             </h2>
           </div>
           <div className="flex flex-row space-x-10">
             <h3 className="font-semibold italic md:(text-xl)">Adresse: </h3>
-            <p className=" md:(text-xl)">Dakar</p>
+            <p>Dakar</p>
           </div>
 
           <div className="flex flex-row ">
-            <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
-            <p className=" md:(text-xl)">+229 99 54 59 59</p>
+            <h3 className="font-semibold italic md:(text-xl)">Téléphone: </h3>
+            <p></p>
           </div>
         </div>
 
-        <div className="flex flex-col space-y-10 p-5">
-          <div className="flex flex-row space-x-2 justify-center items-center">
+        <div className="flex flex-col space-y-10 justify-center items-center">
+          <div className="flex flex-row space-x-2">
             <img src={drapeau6} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-2xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-xl) ">
               {" "}
               France
             </h2>
           </div>
           <div className="flex flex-row space-x-10">
             <h3 className="font-semibold italic md:(text-xl)">Adresse: </h3>
-            <p className=" md:(text-xl)">Paris</p>
+            <p>Paris</p>
           </div>
 
           <div className="flex flex-row ">
-            <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
-            <p className=" md:(text-xl)"></p>
+            <h3 className="font-semibold italic md:(text-xl)">Téléphone: </h3>
+            <p></p>
           </div>
         </div>
 
-        <div className="flex flex-col space-y-10 p-5">
-          <div className="flex flex-row space-x-2 justify-center items-center">
+        <div className="flex flex-col space-y-10 justify-center items-center">
+          <div className="flex flex-row space-x-2">
             <img src={drapeau5} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-2xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-xl) ">
               {" "}
               USA
             </h2>
           </div>
           <div className="flex flex-row space-x-10">
             <h3 className="font-semibold italic md:(text-xl)">Adresse: </h3>
-            <p className=" md:(text-xl)">New York</p>
+            <p>NewYork</p>
           </div>
 
           <div className="flex flex-row ">
-            <h3 className="font-semibold italic md:(text-xl)">Telephone: </h3>
-            <p className=" md:(text-xl)"></p>
+            <h3 className="font-semibold italic md:(text-xl)">Téléphone: </h3>
+            <p></p>
           </div>
         </div>
       </div>

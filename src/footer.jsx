@@ -10,14 +10,14 @@ import "./sectio.css";
 
 function Footer() {
   return (
-    <div className=" pt-10 border-3 mt-5 flex flex-col space-y-5  ">
-      <div className="flex flex-row ml-20 md:(justify-center items-center)">
+    <div className=" pt-10 border-3  flex flex-col space-y-10  ">
+      <div className="flex flex-row ml-20 md:(justify-center items-center ml-50)">
         {" "}
         <div className="md:(flex flex-row  w-200 ) grid grid-cols-2">
           <input
-            placeholder="search"
+            placeholder="     Search...."
             type="text"
-            className="bg-gray-400 rounded-l-2xl  placeholder-white md:(text-2xl w-full rounded-l-2xl h-15 focus:outline-none  border border-gray-300)   "
+            className="bg-gray-400 rounded-l-2xl  placeholder-white md:(text-xl w-100 rounded-l-2xl h-12 focus:outline-none  border border-gray-300)   "
           />
           <div className="md:(hidden) bg-amber-400 rounded-r-2xl text-white w-10 h-10 text-2xl">
             {" "}
@@ -25,7 +25,7 @@ function Footer() {
           </div>
           <button
             type="submit"
-            className="hidden bg-amber-400 md:(flex rounded-r-2xl text-white w-40 h-15 text-2xl) "
+            className="hidden bg-amber-400 md:(flex rounded-r-2xl text-white w-25 h-12 text-2xl) "
           >
             <Iconsearch />
           </button>
@@ -71,8 +71,8 @@ function Footer() {
           </button>
         </div>
         <div className="">
-          <h1 className="text-center font-bold text-3xl ">Services</h1>
-          <ul className="mt-4 px-2 font-italic text-sm  md:(text-xl) ">
+          <h1 className="text-center font-bold md:(text-xl) ">Services</h1>
+          <ul className="mt-4 px-2 font-italic text-sm ">
             <li className=" ">
               <Link to="/mcloud">Managed cloud</Link>
             </li>
@@ -106,11 +106,23 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="mt-2 md:(mt-1)">
-          <h1 className="text-center font-bold md:(text-3xl)">
+        <div className="">
+          <h1 className="text-center font-bold md:(text-xl)">Ressources</h1>
+          <ul className=" mt-4 px-2 text-sm   ">
+            <li className="">Blog</li>
+            <li className="">Webinars & Events</li>
+            <li className="">Videos</li>
+            <li className="">Case studies</li>
+            <li className="">Data sheets</li>
+            <li className="">Certification and credentials</li>
+          </ul>
+        </div>
+
+        <div className="">
+          <h1 className="px-2 text-center font-bold md:(text-xl) ">
             Software Development
           </h1>
-          <ul className="mt-4 px-2 font-none  font-italic text-xm md:(text-xl) ">
+          <ul className="mt-4 px-2 text-sm ">
             <li className="">
               {" "}
               <Link to="/dev_web"> Web Development</Link>
@@ -119,18 +131,6 @@ function Footer() {
               {" "}
               <Link to="/mobile">Mobile App Development</Link>
             </li>
-          </ul>
-        </div>
-
-        <div className="mt-2 md:(mt-0)">
-          <h1 className="text-center font-bold md:(text-3xl)">Ressources</h1>
-          <ul className=" px-2 pt-10 font-italic md:(px-2 pt-6 text-xl)  ">
-            <li className="">Blog</li>
-            <li className="">Webinars & Events</li>
-            <li className="">Videos</li>
-            <li className="">Case studies</li>
-            <li className="">Data sheets</li>
-            <li className="">Certification and credentials</li>
           </ul>
         </div>
       </div>
@@ -148,7 +148,7 @@ function Iconsearch() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="w-6 mt-2 md:(w-12 ml-15)"
+      className="w-6 mt-2 md:(mt-3 ml-8)"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"

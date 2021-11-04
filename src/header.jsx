@@ -195,7 +195,7 @@ function Logo() {
 
 function Menu() {
   return (
-    <div className="">
+    <div className="text-sm">
       <ul
         id="navigation"
         className=" flex space-x-2 md:(font-thin space-x-10 )"
