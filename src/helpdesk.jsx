@@ -1,17 +1,24 @@
 import React from 'react'
 import "./sectio.css";
-import imge from "./images/imge.png";
+import itsupport from "./images/itsupport.jpg";
+import itsupports from "./images/itsupports.png";
 import { NavLink } from "react-router-dom";
+import Headertop from './headertop';
+import Head from './header';
+import Footer from './footer';
 
 
 function Helpdesk(){
     return(
         <div>
+          <Headertop/>
+          <Head/>
             <Body1/>
             <Body2/>
             <Body3/>
             <Body4/>
-            
+            <Body5/>
+            <Footer/>
         </div>
     )
 }
@@ -22,7 +29,7 @@ function Body1() {
     return (
       <section>
         <div className="user">
-        <h1 className="text-sm px-15 text-white pt-45 md:(text-2xl )">End User Support</h1>
+        <h1 className="text-sm text-white pt-35 px-5 md:(text-3xl )">IT Help Desk Services  and<br/> Service Desk Support</h1>
         </div>
         <div className="md:(h-full) menu ">
           <nav className=" ">
@@ -69,11 +76,11 @@ function Body1() {
   function Body2() {
     return (
       <div>
-        <div className="mt-4">
-          <h1 className="text-xl font-bold text-amber-400 text-center px-6 md:(text-3xl) ">
+        <div className="mt-6">
+          <h1 className="mt-6 text-xl font-bold text-amber-400 text-center px-6 md:(text-2xl px-40) ">
           Winning IT support services and support for your business
           </h1>
-          <p className="px-4 mt-2 text-sm text-center md:(px-40)">
+          <p className="px-4 mt-4 text-sm text-center md:(px-40 text-xl)">
           Our global IT support services are delivered by certified IT professionals.
            We provide high quality remote network monitoring and IT support services every hour of
             the day. Exunov's IT support services go far beyond traditional help desk services to
@@ -88,12 +95,20 @@ function Body1() {
   
   function Body3() {
     return (
-      <div>
-        <div className="mt-6 bg-gray-100">
-          <h1 className="text-xl md:(text-3xl px-50) px-4 font-bold text-amber-400 mt-2 p-5">
+      <div className="mt-8 bg-gray-100 ">
+        <h1 className="text-xl md:(text-2xl ) px-4 text-center font-bold text-amber-400 mt-2 p-5">
           State-of-the-art IT services and support
           </h1>
-          <p className="px-4 text-sm p-4 md:(px-40 text-center p-6)">
+        <div className="grid grid-cols-1 mt-4 md:(grid grid-cols-2 gap-2 place items-center px-40) ">
+          
+          <div className="px-5 md:()">
+          <img
+                src={itsupport}
+                alt=""
+                className=" w-120 "
+              /></div>
+          <div className="">
+            <p className="text-sm p-4 md:( text-center text-xl)">
           Our technical support information is based in Cotonou, Benin.
            This model is based on the industry standard ITIL (Information Technology 
            Infrastructure Library) framework for continuous improvement. 
@@ -101,7 +116,7 @@ function Body1() {
             the CPI model is tailored to the specific needs of your organization and your
              employees.
             
-          </p>
+          </p></div>
         </div>
       </div>
     );
@@ -112,16 +127,18 @@ function Body1() {
       <section className=" bg-gray-100 md:()">
         <div className=" p-4">
           <div className=" ">
-            <h1 className="text-xl md:(text-3xl) font-bold text-amber-400 text-center mt-2 p-3">
+            <h1 className="text-xl md:(text-2xl px-40)px-10 font-bold text-amber-400 text-center mt-2 p-3">
             Our own IT Service Management (ITSM) platform will provide you with a unique service experience
             </h1>
-            <p className="px-4 text-sm p-4 text-center md:(px-40 p-4)">
+            <p className="px-4 text-sm p-4 text-center md:(px-40 p-4 text-xl)">
             Exunov uses a unique IT Service Management (ITSM) platform that allows IT support
              personnel to resolve support issues quickly and efficiently.
               We have created a unique support workflow that focuses on rapid testing and
                resolution of initial calls. The underlying learning engine, like you,
                 can only help solve a problem by blindly recording thousands of responses 
-                from hundreds of environments.
+                from hundreds of environments.<br/>
+                <br/>All Exunov helpdesks and support solutions offer free access to ITSM.<br/>
+                <br/>For customers who wish to use a third-party ticketing system, the ITSM platform provides full API integration of the ticketing system.<br/>
             </p>
           </div>
           
@@ -129,53 +146,38 @@ function Body1() {
       </section>
     );
   }
-  function Body6() {
-    return (
-      <div className=" bg-gray-200 flex flex-col md:(p-10 bg-gray-200)">
-        <div className=" mt-4   md:(px-40 flex flex-row  mt-6 )">
-          <img src={image} alt="" className="md:( float-right w-full) w-full" />
-  
-          <div className="">
-            <h1 className="text-3xl font-bold text-center mt-2">
-              Your team covers what it can, but there are gaps.
-            </h1>
-            <p className="px-4 text-sm p-4 md:( text-justify text-xl p-6)">
-              Strategic decision making, monitoring and IT team support, but in
-              today's complex IT environment, you don't have enough time, team
-              members or budget to provide complete coverage. Our managed
-              monitoring and response services use our 24/7 security operations
-              center to keep your business safe around the clock. A team of
-              GIAC-certified Intrusion Analysts (GCIA) perform real-time analysis
-              and validation of logs and network traffic. Our IT security
-              monitoring helps organizations validate alarms and follow
-              appropriate cyber response procedures in the event of an incident.
-              Exunov's IT security monitoring services protect your IT
-              infrastructure by detecting security threats in real time.
-            </p>
-          </div>
-        </div>
+   function Body5(){
+     return(
+      <div className="mt-8 ">
+      <h1 className="text-xl md:(text-2xl ) px-4 text-center font-bold text-amber-400 mt-2 p-5">
+      Complete IT service desk solutions enable businesses to win with IT
+        </h1>
+      <div className="grid grid-cols-1 mt-4 md:(grid grid-cols-2 gap-2 place items-center px-30) ">
+        
+        <div className="px-5 md:()">
+        
+          <p className="text-sm p-4 md:( text-center )">
+          Exunov offers a wide range of comprehensive IT services for small businesses that
+           require part-time or full-time technical support, application support, customer 
+           service or a full-time resource center. No matter what type of help desk
+            functionality you need, we can provide a complete solution for your specific needs.
+          <br/><br/>
+          Exunov's IT services and support go far beyond traditional IT support services and consist
+           of over 300 certified IT professionals available 24 hours a day, 7 days a week. 
+           Our IT support services provide you and your customers with effective solutions for 
+           immediate assistance. We provide comprehensive IT consulting services to businesses of
+            all sizes and provide 24-hour technical support. Are you ready to learn how Exunov IT 
+            support services can make you more competitive? Please fill out the request form below.
+        </p></div>
+        <div><img
+              src={itsupports}
+              alt=""
+              className="  w-100 "
+            /></div>
+        
       </div>
-    );
-  }
-  function Body7() {
-    return (
-      <div className="bg-gray-100 p-4  ">
-        <div className="md:(px-10  mt-2)">
-          <h1 className="mt-4 px-8 text-center   text-2xl font-bold ">
-            Monitoring of Dark Web credentials
-          </h1>
-          <p className="mt-3 text-sm  md:(text-xl px-40 text-justify) ">
-            Exunov's managed tracking and response services include dark web
-            credential
-            <br /> monitoring, which detects dark web credentials in real time and
-            notifies you immediately when critical ssets are compromised before
-            they are used for theft. Identity, data breaches or other crimes.
-            Identity protection is animportant part of cyber response and
-            information security management.
-          </p>
-        </div>
-      </div>
-    );
-  }
+    </div>
+     )
+   }
   
   export default Helpdesk;
