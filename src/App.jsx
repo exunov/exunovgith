@@ -29,6 +29,7 @@ import Enduser from "./enduser";
 import Helpdesk from "./helpdesk";
 import Muser from "./muser";
 import BusinessApp from "./businessApp";
+import Mcommunication from "./mcommunication";
 
 function App() {
   return (
@@ -135,6 +136,9 @@ function App() {
           </Route>
           <Route exact path="/businessApp">
             <BusinessApp />
+          </Route>
+          <Route exact path="/mcommunication">
+            <Mcommunication/>
           </Route>
         </Switch>
       </Router>
