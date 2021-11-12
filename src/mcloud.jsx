@@ -26,7 +26,10 @@ function Mcloud() {
       <Text />
       <List />
       <Bloc />
-      <Footer />
+      <div className="mt-10">
+        {" "}
+        <Footer />
+      </div>
     </div>
   );
 }
@@ -35,7 +38,7 @@ function Menu() {
   return (
     <div>
       <div className="img md:(p-20)">
-        <div className="font-bold text-white text-3xl px-10 pt-4 md:(text-5xl ) ">
+        <div className="font-bold text-white text-3xl px-10 pt-4 md:(text-5xl pt-0 ) ">
           Managed
           <br /> cloud
         </div>

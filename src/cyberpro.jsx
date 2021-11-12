@@ -34,7 +34,10 @@ function Body1() {
               </NavLink>
             </li>
             <li className="">
-              <NavLink to="/mdetection">Managed Detection and Response</NavLink>
+              <NavLink to="/mdetection">
+                Managed Detection
+                <br /> and Response
+              </NavLink>
             </li>
             <li className="">
               <NavLink
@@ -48,7 +51,10 @@ function Body1() {
               </NavLink>
             </li>
             <li className="">
-              <NavLink to="/cvm">Continue Vulnerabilities Management</NavLink>
+              <NavLink to="/cvm">
+                Continue Vulnerabilities
+                <br /> Management
+              </NavLink>
             </li>
           </ul>
         </nav>
@@ -59,11 +65,11 @@ function Body1() {
 function Body2() {
   return (
     <div>
-      <div className="mt-4">
+      <div className="md:(mt-8) mt-4">
         <h1 className="text-xl font-bold text-amber-400 text-center md:(text-2xl)">
           Your most powerful tool against cyber attacks is foresight
         </h1>
-        <p className="px-4 mt-6 text-sm md:(px-40 text-center text-xl)">
+        <p className="px-4 mt-2 text-sm md:(px-40 text-center text-xl)">
           Security is at the heart of your organization's technological
           advancements, but it is also the most complex and invisible.
           SonicWall's annual report identified 74,290 novel attacks in 2019;

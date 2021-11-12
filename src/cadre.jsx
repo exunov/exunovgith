@@ -17,7 +17,7 @@ function Cadre() {
 
 function Cadrechild() {
   return (
-    <div className=" quote bg-cover w-full h-full md:(h-100 mt-8  place-items-center transform transition-all hover:(  translate-y-10) ) ">
+    <div className=" quote bg-cover w-full h-full md:(h-100 mt-8  place-items-center) ">
       <div className="md:()">
         <img src={quote1} alt="" className="w-full p-2 md:(h-100 px-40   )" />
       </div>

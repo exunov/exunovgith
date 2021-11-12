@@ -46,7 +46,8 @@ function Body1() {
                 to="/mdetection"
                 className=" geeks a"
               >
-                Managed Detection <br/>and Response
+                Managed Detection <br />
+                and Response
               </NavLink>
             </li>
             <li>
@@ -56,7 +57,10 @@ function Body1() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/cvm">Continue Vulnerabilities <br/>Management</NavLink>
+              <NavLink to="/cvm">
+                Continue Vulnerabilities <br />
+                Management
+              </NavLink>
             </li>
           </ul>
         </nav>
@@ -67,7 +71,7 @@ function Body1() {
 function Body2() {
   return (
     <div>
-      <div className="mt-4">
+      <div className="md:(mt-8) mt-4">
         <h1 className="text-xl font-bold text-amber-400 text-center md:(text-2xl) ">
           Full threat visibility is the only guarantee against cyber risk
         </h1>
@@ -222,8 +226,8 @@ function Body5() {
             and repair an identified security incident. Malware Removal Malware
             removal from the data uplink is returned to the infected endpoint
             client, reducing disruption and ensuring continued productivity in
-            the workplace.Developing an Incident Response (IR){" "}
-          <br/><br/>
+            the workplace.Developing an Incident Response (IR) <br />
+            <br />
             Plan Implementing the IR plan is an essential component of a
             successful security program and is an important step in security.
             Reciprocity with other services. Other comprehensive cyber services
@@ -246,7 +250,8 @@ function Body5() {
             management capabilities of SIEM tools include installing,
             configuring, and monitoring the status/availability of hardware or
             software that provides security controls.
-          <br/><br/>
+            <br />
+            <br />
             Additional information security risk management capabilities are
             available to your organization through the Integrated Security
             Management platform:{" "}

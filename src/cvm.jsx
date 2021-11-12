@@ -31,7 +31,10 @@ function Body1() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/mdetection">Managed Detection <be/>and Response</NavLink>
+              <NavLink to="/mdetection">
+                Managed Detection <br />
+                and Response
+              </NavLink>
             </li>
             <li>
               <NavLink to="/cyberpro">
@@ -46,7 +49,8 @@ function Body1() {
                 activeClassname="active"
                 className=" geeks a"
               >
-                Continue Vulnerabilities<br/> Management
+                Continue Vulnerabilities
+                <br /> Management
               </NavLink>
             </li>
           </ul>
@@ -58,7 +62,7 @@ function Body1() {
 
 function Body2() {
   return (
-    <div className="grid grid-cols-1 text-justify p-8 md:(grid grid-cols-1 place-items-center px-30 gap-4)">
+    <div className="grid grid-cols-1 text-justify md:(grid grid-cols-1 place-items-center px-30 gap-4)">
       <div className=" bg-gray-100  mt-6 py-4 px-4 shadow-2xl rounded-b-2xl md:(h-full)">
         <h1 className=" font-bold text-center md:(text-2xl  ) text-amber-400">
           Continuous vulnerability assessment: how secure are you?

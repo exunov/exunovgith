@@ -18,6 +18,7 @@ function Exunov() {
       <div className="space-y-10">
         {" "}
         <Slide />
+        <Cadrechild />
         <Footer />
       </div>
     </div>
@@ -45,91 +46,85 @@ function Puce() {
 
 function Formulaire() {
   return (
-    <div className="flex flex-col shadow-2xl  mt-8 border-1 rounded-2xl p-2 md:(ml-40 mr-30 mt-20 )">
+    <div className="flex flex-col   mt-8 border-4  rounded-2xl p-2 md:(mx-70 w-200 mt-20 )">
       <form action="" className=" ">
-        <h1 className="text-center font-bold text-2xl md:( mt-2 text-2xl underline) ">
+        <h1 className="text-center  font-bold text-2xl md:( text-3xl underline) ">
           Request a quote
         </h1>
 
-        <div className="flex flex-col space-y-3 font-semibold  justify-center items-center md:(grid grid-cols-2 p-5 gap-6 text-xl italic )">
+        <div className="flex flex-col space-y-3  justify-center items-center md:(grid grid-cols-2 p-5 gap-6 text-xl)">
           <div className="  mt-3">
-            <label htmlFor="" className="flex ">
+            <label htmlFor="" className="flex font-semibold ">
               Name
               <Puce />
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w-50 p-2  md:(h-12 w-full )"
+              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w50  p-2 md:(h-12 w-full rounded-2xl ) "
             />
           </div>
 
           <div>
-            <label htmlFor="" className="flex">
+            <label htmlFor="" className="flex font-semibold">
               Surname
               <Puce />
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300 h-10 w-70 p-2  md:(h-12 w-full )  "
+              className="rounded-2xl hover:(placeholder-light-100)  bg-gray-300 h-10 w-50 p-2  md:(h-12 w-full )  "
             />
           </div>
 
           <div>
-            <label htmlFor="" className="flex">
+            <label htmlFor="" className="flex font-semibold">
               Phone
               <Puce />
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300 h-10 w-70 p-2  md:(h-12 w-full )  "
+              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w-50 p-2  md:(h-12 w-full )  "
             />
           </div>
 
           <div>
-            <label htmlFor="" className="flex">
+            <label htmlFor="" className="flex font-semibold">
               Country
               <Puce />
             </label>
             <input
               type="text"
-              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300 h-10 w-70 p-2  md:(h-12 w-full )  "
+              className="rounded-2xl hover:(placeholder-light-100) bg-gray-300  h-10 w-50 p-2  md:(h-12 w-full )  "
             />
           </div>
 
           <div className="">
-            <label htmlFor="" className="flex">
+            <label htmlFor="" className="flex font-semibold">
               Message
               <Puce />
             </label>
             <textarea
               type="text"
-              className="h-10 w-70 p-2   md:(h-10 w-full ) bg-gray-300 "
+              className="h-10 w-70 p-2 bg-gray-300  md:(h-10 w-full) "
             />
           </div>
         </div>
       </form>
-      <div className=" flex flex-col space-y-5 md:(px-10 )">
-        <p className="text-semibold p-2 ">
+      <div className=" flex flex-col space-y-5 font-semibold md:(px-10 )">
+        <p className="text-semibold   p-2 ">
           By submitting this form, you agree to the use of your personal data by
           exunov as described in the privacy statement.
         </p>
-        <div className="space-x-5">
+        <div className="space-x-3">
           {" "}
-          <input
-            type="checkbox"
-            id=""
-            name=""
-            value=""
-            className="h-6 w-6 mt-5"
-          />
-          <label for="">
+          <input type="checkbox" id="" name="" value="" className=" w-6 mt-5" />
+          <label for="" className="">
             I have read the privacy policy and I authorize Exunov to send me
             information
           </label>
         </div>
         <button
           type="submit"
-          className=" bg-yellow-500  text-light-900 border-2 rounded-lg h-10  md:(text-3xl font-thin ml-50 w-40 h-15 ) "
+          className=" bg-yellow-600 font-bold text-black border-2 rounded-lg h-10 md:(text-3xl bg-amber-600 text-dark-100  w-50 h-15 ml-40 ) "
         >
           Submit
         </button>
@@ -140,7 +135,7 @@ function Formulaire() {
 
 function Cadrechild() {
   return (
-    <div className="bg-Group9-img bg-cover w-full h-full md:(h-100 mt-8  place-items-center transform transition-all hover:(  translate-y-10) ) ">
+    <div className=" quote bg-cover w-full h-full md:(h-100 mt-8  place-items-center) ">
       <div className="md:()">
         <img src={quote1} alt="" className="w-full p-2 md:(h-100 px-40   )" />
       </div>

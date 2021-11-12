@@ -13,13 +13,10 @@ function Slid() {
 
 function Parteners() {
   return (
-    <div className="mt-10 space-y-5 text-center place-items-center">
-      <div className="  ">
-        <Slidepartenaire />
-      </div>
-      <div className=" ">
-        <SlidPart />
-      </div>
+    <div className="space-y-10">
+      <Slidepartenaire />
+
+      <SlidPart />
     </div>
   );
 }

@@ -27,9 +27,6 @@ import img23 from "./images/ns6.png";
 import img33 from "./images/ns7.png";
 import img24 from "./images/pmp.png";
 import img25 from "./images/prince2.png";
-import img26 from "./images/SecureDigitale.png";
-import img27 from "./images/syntrology.png";
-import img28 from "./images/techwins.png";
 import img29 from "./images/AWS.png";
 import img30 from "./images/compa.png";
 import img31 from "./images/mtcnapng.png";
@@ -71,61 +68,61 @@ function Slidepartenaire() {
     ],
   };
   return (
-    <div className="mt-10 space-y-7">
-      <h1 className=" font-bold text-center text-3xl">Our Certification</h1>
-      <Slider {...settings} className="md:(mx-20) ">
+    <div className="mt-10 space-y-2">
+      <h1 className=" font-bold text-center text-2xl">Our Certification</h1>
+      <Slider {...settings} className="md:(mx-20)  space-x-5  ">
         <div>
-          <img src={img29} alt="" className="w-50 h-full" />
+          <img src={img29} alt="" className="" />
         </div>
 
         <div>
-          <img src={img2} alt="" className="w-50 h-full" />
+          <img src={img2} alt="" className="" />
         </div>
         <div>
-          <img src={img3} alt="" className="w-50 h-full" />
+          <img src={img3} alt="" className="" />
         </div>
         <div>
-          <img src={img4} alt="" className="w-50 h-full" />
+          <img src={img4} alt="" className="" />
         </div>
         <div>
           <img src={img5} alt="" className="" />
         </div>
         <div>
-          <img src={img6} alt="" className="" />
+          <img src={img6} alt="" className="w-65" />
         </div>
         <div>
-          <img src={img9} alt="" className="w-50 h-full" />
+          <img src={img9} alt="" className="" />
         </div>
         <div>
-          <img src={img16} alt="" className="w-50 h-full" />
+          <img src={img16} alt="" className="" />
         </div>
 
         <div>
-          <img src={img13} alt="" className="" />
+          <img src={img13} alt="" className="w-40" />
         </div>
         <div>
-          <img src={img24} alt="" className="" />
+          <img src={img24} alt="" className="w-40" />
         </div>
         <div>
-          <img src={img18} alt="" className="" />
+          <img src={img18} alt="" className="w-40" />
         </div>
         <div>
-          <img src={img19} alt="" className="" />
+          <img src={img19} alt="" className="w-40" />
         </div>
         <div>
-          <img src={img20} alt="" className="" />
+          <img src={img20} alt="" className="w-40" />
         </div>
         <div>
-          <img src={img21} alt="" className="" />
+          <img src={img21} alt="" className="w-40" />
         </div>
         <div>
-          <img src={img22} alt="" className="" />
+          <img src={img22} alt="" className="w-42" />
         </div>
         <div>
-          <img src={img23} alt="" className="" />
+          <img src={img23} alt="" className="w-40" />
         </div>
         <div>
-          <img src={img33} alt="" className="w-full " />
+          <img src={img33} alt="" className="mt-10 w-600" />
         </div>
 
         <div>

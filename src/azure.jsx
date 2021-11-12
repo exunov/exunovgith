@@ -7,6 +7,9 @@ import installer from "./images/installer.png";
 import infogérance from "./images/infogérance.png";
 import iconsupport from "./images/iconsupport.png";
 import admin from "./images/admin.png";
+import devtesting from "./images/devtesting.jpg";
+import security from "./images/infrastructuresecurity.jpg";
+import desk from "./images/desskservice.jpg";
 import consulting from "./images/consulting.png";
 import { NavLink } from "react-router-dom";
 import Headertop from "./headertop";
@@ -25,7 +28,9 @@ function Azure() {
       <Body6 />
       <Body7 />
       <Body8 />
-      <Footer />
+      <div className="md:(mt-10)">
+        <Footer />
+      </div>
     </div>
   );
 }
@@ -34,7 +39,7 @@ function Body1() {
   return (
     <div>
       <div className="img md:(p-20)">
-        <h1 className="font-bold text-white text-3xl px-10 pt-4 md:(text-5xl)">
+        <h1 className="font-bold text-white text-3xl px-10 pt-4 md:(text-5xl pt-4)">
           Managed
           <br /> cloud
         </h1>
@@ -322,60 +327,76 @@ function Body6() {
 }
 function Body7() {
   return (
-    <div className="mt-4 md:(px-60)">
-      <h1 className="text-center px-10 text-xl font-bold text-amber-400 md:(text-3xl)">
+    <div className="md:(bg-gray-200 px-40) ">
+      <h1 className="text-center px-10 text-xl font-bold text-amber-400 md:(text-2xl)">
         Our Focus Areas in Cloud Management
       </h1>
-      <p className="mt-4 text-sm text-center px-6 md(text-xl)">
+      <p className="mt-4 text-sm text-center px-6 md:(text-xl)">
         Focus on your key business issues and let us manage your cloud
         infrastructure in the following areas:
       </p>
-      <div>
-        <h1 className="mt-4 md:(px-20 text-3xl) font-bold text-center">
+      <div className="md:(space-y-10)">
+        <h1 className="mt-4 md:(px-20 text-2xl) font-bold text-center">
           Infrastructure Services
         </h1>
-        <p className="mt-4 text-sm px-10 md:( text-xl)">
-          Design and implement Azure IT infrastructure and services to provide
-          24/7 support.
-          <br />
-          It monitors and controls system software such as storage, databases
-          and development capabilities.
-        </p>
-      </div>
-      <div className="hidden md:(flex pl-100) ">
-        <Puce />
+        <div className=" flex flex-col px-5 justify-center items-center space-y-4 mt-5 md:(space-x-5 flex flex-row)">
+          <img src={desk} alt="" className="md:(w-100) rounded-5xl w-100 " />
+          <p className="mt-4 text-sm px-1 md:( mt-8 text-xl font-semibold)">
+            Design and implement Azure IT infrastructure and services to provide
+            24/7 support.
+            <br />
+            It monitors and controls system software such as storage, databases
+            and development capabilities.
+          </p>
+        </div>
       </div>
       <div>
-        <h1 className="mt-4 text-xl md:(px-20 text-2xl) font-bold text-center">
+        <h1 className="mt-4 text-xl md:(px-20 text-2xl mt-10) font-bold text-center">
           Development and testing
         </h1>
-        <p className="mt-4 px-10 text-sm md:(text-xl px-50)">
-          Create a development and test environment in seconds.
-          <br />
-          As part of your team, our specialists ensure the careful integration
-          of business processes and ongoing development.
-          <br />
-          MS Azure cloud solution for developers:
-          <ul className="list-disc list-inside mt-4 px-10 md:()">
-            <li>Improve the efficiency and quality of development.</li>
-            <li>Reduce development costs.</li>
-            <li>Reduce development costs.</li>
-          </ul>
-        </p>
-      </div>
-      <div className="hidden md:(flex pl-100) ">
-        <Puce />
+        <div className="flex flex-col px-5 justify-center items-center space-y-4 mt-5 md:(flex flex-row space-x-5)">
+          <img
+            src={devtesting}
+            alt=""
+            className=" w-150 rounded-5xl md:(hidden)"
+          />
+          <p className="mt-4 text-sm px-1 md:( mt-8 text-xl font-semibold)">
+            Create a development and test environment in seconds.
+            <br />
+            As part of your team, our specialists ensure the careful integration
+            of business processes and ongoing development.
+            <br />
+            MS Azure cloud solution for developers:
+            <ul className="list-disc list-inside mt-4 px-1 md:()">
+              <li>Improve the efficiency and quality of development.</li>
+              <li>Reduce development costs.</li>
+              <li>Reduce development costs.</li>
+            </ul>
+          </p>
+          <img
+            src={devtesting}
+            alt=""
+            className="hidden md:(flex w-100 rounded-5xl)"
+          />
+        </div>
       </div>
       <div>
-        <h1 className="mt-4 text-xl font-bold text-center md:(text-2xl  px-20)">
+        <h1 className="mt-4 text-xl font-bold text-center md:(text-2xl mt-10 px-20)">
           Compliance with safety standards
         </h1>
-        <p className="mt-4 px-10 md:(px-50)">
-          Ensure your infrastructure is compliant with security standards and
-          implement the latest security tools. Ensure your infrastructure is
-          compliant with security standards and implement the latest security
-          tools.
-        </p>
+        <div className="justify-center items-center  md:(flex flex-col mt-10 space-x-5)">
+          <img
+            src={security}
+            alt=""
+            className="  md:(w-100 ml-0) ml-20 rounded-full"
+          />
+          <p className="mt-4 text-sm px-10 md:(text-center text-justify font-semibold m-4 text-xl)">
+            Ensure your infrastructure is compliant with security standards and
+            implement the latest security tools. Ensure your infrastructure is
+            compliant with security standards and implement the latest security
+            tools.
+          </p>
+        </div>
       </div>
     </div>
   );
@@ -384,7 +405,7 @@ function Body7() {
 function Body8() {
   return (
     <div className="">
-      <h1 className="mt-4 px-4 text-xl text-center font-bold md:(px-10 text-2xl mt-6 )">
+      <h1 className="mt-4 px-4 text-xl text-center font-bold md:(px-10 text-2xl )">
         Why Exunov
       </h1>
       <p>

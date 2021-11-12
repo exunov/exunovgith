@@ -7,7 +7,7 @@
   background-size: cover;
   opacity: 1;
   position: relative;
-  top: 30px;
+
   left: 0px;
   overflow: hidden;
 }
@@ -16,13 +16,12 @@
   background-image: url("images/web.png");
   background-color: black;
   width: 100%;
-  height: 320px;
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: relative;
-  top: 30px;
+
   left: 0px;
   overflow: hidden;
 }
@@ -47,7 +46,7 @@
   background-size: cover;
   opacity: 1;
   position: relative;
-  top: 10px;
+
   left: 0px;
   overflow: hidden;
 }
@@ -60,7 +59,7 @@
   background-size: cover;
   opacity: 1;
   position: relative;
-  top: 30px;
+
   left: 0px;
   overflow: hidden;
 }
@@ -70,8 +69,6 @@
 
   background-size: cover;
   position: relative;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
 
@@ -81,13 +78,10 @@
   text-align: center;
   background-size: cover;
   position: relative;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
 .bas {
   background-color: #8a4405;
-
   background-size: cover;
   position: relative;
   top: 30px;
@@ -104,20 +98,15 @@
   background-size: cover;
   opacity: 1;
   position: relative;
-  top: 30px;
-  left: 0px;
   overflow: hidden;
 }
 .bas2 {
   background-image: url("images/web.png");
-
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
 .image {
@@ -139,7 +128,6 @@
 .geeks {
   overflow: hidden;
   background-color: #8a4405;
-  
 }
 
 /* styling navigation menu */
@@ -164,7 +152,7 @@
   background-color: #f6ad35;
 }
 .user {
-  background-image: url("images/management-users.jpg"); 
+  background-image: url("images/management-users.jpg");
   width: 100%;
   height: 400px;
   background-repeat: no-repeat;
@@ -172,7 +160,5 @@
   background-size: cover;
   opacity: 1;
   position: relative;
-  top: 30px;
-  left: 0px;
   overflow: hidden;
 }

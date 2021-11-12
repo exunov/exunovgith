@@ -20,7 +20,11 @@ function Home() {
       <Foot />
       <Cadre />
       <Slid />
-      <Cardre1 />
+      <div className="mt-10">
+        {" "}
+        <Cardre1 />
+      </div>
+
       <Propriety />
       <Footer />
     </div>

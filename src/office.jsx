@@ -17,7 +17,9 @@ function Office() {
       <Body6 />
       <Body7 />
       <Body8 />
-      <Footer />
+      <div className="md:(mt-10)">
+        <Footer />
+      </div>
     </div>
   );
 }

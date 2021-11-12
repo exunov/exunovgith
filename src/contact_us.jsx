@@ -3,6 +3,7 @@ import Head from "./header";
 import Headertop from "./headertop";
 import "./back.css";
 import quote1 from "./images/Group6.png";
+import globe from "./images/globe.jpg";
 import Footer from "./footer";
 import drapeau1 from "./images/benin.png";
 import drapeau2 from "./images/côte_ivoire.png";
@@ -46,7 +47,7 @@ function Puce() {
 
 function Formulaire() {
   return (
-    <div className="flex flex-col   mt-8 border-4  rounded-2xl p-2 md:(mx-70 w-200 )">
+    <div className="flex flex-col   mt-8 border-4  rounded-2xl p-2 md:(mx-70 w-200 mt-20 )">
       <form action="" className=" ">
         <h1 className="text-center  font-bold text-2xl md:( text-3xl underline) ">
           Started
@@ -116,13 +117,7 @@ function Formulaire() {
         </p>
         <div className="space-x-5">
           {" "}
-          <input
-            type="checkbox"
-            id=""
-            name=""
-            value=""
-            className="h-6 w-6 mt-5"
-          />
+          <input type="checkbox" id="" name="" value="" className=" w-6 mt-5" />
           <label for="" className="">
             I have read the privacy policy and I authorize Exunov to send me
             information
@@ -130,7 +125,7 @@ function Formulaire() {
         </div>
         <button
           type="submit"
-          className=" bg-yellow-600 font-bold text-black border-2 rounded-lg h-10   hover:(bg-amber-400) md:(text-3xl bg-white text-dark-100  w-70 h-15 ml-40 ) "
+          className=" bg-yellow-600 font-bold text-black border-2 rounded-lg h-10 md:(text-3xl bg-amber-600 text-dark-100  w-50 h-15 ml-40 ) "
         >
           Submit
         </button>
@@ -142,7 +137,7 @@ function Formulaire() {
 function Body1() {
   return (
     <div className="flex flex-col space-y-5 mt-5 p-5 md:(px-60 text-center)">
-      <h1 className="text-3xl text-amber-500 font-bold text-center">
+      <h1 className="md:(text-2xl) text-amber-500 font-bold text-center">
         If you have any questions about your computer, we have the answers
       </h1>
       <p className="font-semibold text-sm md:(text-2xl)">
@@ -169,9 +164,14 @@ function Body1() {
 function Body2() {
   return (
     <div className="flex flex-col space-y-2 mt-5 p-5 md:(px-60 text-center space-y-5)">
-      <h1 className="text-3xl text-amber-500 text-center font-bold">
-        National reach with a local presence
-      </h1>
+      <div className=" md:(justify-center items-center space-y-4)">
+        {" "}
+        <h1 className="md:(text-2xl)  text-amber-500 font-bold">
+          National reach with a local presence
+        </h1>
+        <img src={globe} alt="" className=" ml-70 w-80 rounded-xl" />
+      </div>
+
       <p className="text-sm md:(text-xl)">
         We're not old enough to help your growing businesses deal with their
         growing pains, and we're not young enough to handle the workload of the
@@ -213,7 +213,7 @@ function Drapeau() {
         <div className="flex flex-col space-y-10  justify-center items-center">
           <div className="flex flex-row space-x-2 ">
             <img src={drapeau2} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-6 text-sm md:(text-xl) ">
               {" "}
               Côte d'ivoire
             </h2>
@@ -232,7 +232,7 @@ function Drapeau() {
         <div className="flex flex-col space-y-10 justify-center items-center ">
           <div className="flex flex-row space-x-2 ">
             <img src={drapeau3} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-6 text-sm md:(text-xl) ">
               {" "}
               Ghana
             </h2>
@@ -253,7 +253,7 @@ function Drapeau() {
         <div className="flex flex-col space-y-10 justify-center items-center">
           <div className="flex flex-row space-x-2">
             <img src={drapeau4} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-6 text-sm md:(text-xl) ">
               {" "}
               Sénegale
             </h2>
@@ -272,7 +272,7 @@ function Drapeau() {
         <div className="flex flex-col space-y-10 justify-center items-center">
           <div className="flex flex-row space-x-2">
             <img src={drapeau6} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-6 text-sm md:(text-xl) ">
               {" "}
               France
             </h2>
@@ -291,7 +291,7 @@ function Drapeau() {
         <div className="flex flex-col space-y-10 justify-center items-center">
           <div className="flex flex-row space-x-2">
             <img src={drapeau5} alt="" className="w-20" />
-            <h2 className="text-amber-500 italic font-semibold mt-2 text-sm md:(text-xl) ">
+            <h2 className="text-amber-500 italic font-semibold mt-6 text-sm md:(text-xl) ">
               {" "}
               USA
             </h2>
@@ -313,7 +313,7 @@ function Drapeau() {
 
 function Cadrechild() {
   return (
-    <div className="bg-Group9-img bg-cover w-full h-full md:(h-100 mt-8  place-items-center transform transition-all hover:(  translate-y-10) ) ">
+    <div className=" quote bg-cover w-full h-full md:(h-100 mt-8  place-items-center transform transition-all hover:(  translate-y-10) ) ">
       <div className="md:()">
         <img src={quote1} alt="" className="w-full p-2 md:(h-100 px-40   )" />
       </div>

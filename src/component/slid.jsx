@@ -47,36 +47,38 @@ function SlidPart() {
     ],
   };
   return (
-    <div className="mt-10 space-y-5 ">
-      <h1 className=" font-bold text-center text-3xl">Our Patners</h1>
-      <Slider {...settings} className="md:(mx-20) ">
+    <div className=" ">
+      <h1 className=" font-bold text-center text-2xl">Our Partenairs</h1>
+      <Slider {...settings} className="md:(mx-20) mx-15  ">
         <div>
-          <img src={img1} alt="" className="w-50" />
+          <img src={img1} alt="" className="" />
+        </div>
+        <div>
+          <img src={img10} alt="" className="mt-15" />
+        </div>
+        <div>
+          <img src={img11} alt="" className="mt-5" />
+        </div>
+        <div>
+          <img src={img12} alt="" className="mt-15" />
         </div>
 
         <div>
-          <img src={img10} alt="" className="w-50 mt-10" />
+          <img src={img15} alt="" className="mt-15" />
         </div>
 
         <div>
-          <img src={img12} alt="" className="w-50  mt-10" />
-        </div>
-        <div>
-          <img src={img15} alt="" className=" mt-10" />
-        </div>
-        <div>
-          <img src={img26} alt="" className=" mt-10" />
-        </div>
-        <div>
-          <img src={img27} alt="" className=" mt-10" />
+          <img src={img26} alt="" className="md:( w-60) mt-11" />
         </div>
 
         <div>
-          <img src={img28} alt="" className=" mt-10" />
+          <img src={img27} alt="" className="mt-17" />
+        </div>
+        <div>
+          <img src={img28} alt="" className="mt-15 " />
         </div>
       </Slider>
     </div>
   );
 }
-
 export default SlidPart;

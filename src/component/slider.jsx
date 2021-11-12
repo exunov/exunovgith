@@ -49,26 +49,26 @@ function Slide() {
   return (
     <div className="mt-10 space-y-5">
       <h1 className="text-3xl font-bold text-center">Our Clients</h1>
-      <Slider {...settings} className="md:(ml-50 mr-20) ">
+      <Slider {...settings} className="md:(plce-place-items-center) ">
         <div>
-          <img src={img1} alt="" className="w-50 h-full" />
+          <img src={img1} alt="" className="md:(w-50 ml-30 h-full)" />
         </div>
         <div>
-          <img src={img2} alt="" className="w-50 h-full" />
-        </div>
-
-        <div>
-          <img src={img7} alt="" className="w-50 h-full" />
-        </div>
-        <div>
-          <img src={img6} alt="" className="w-50 h-full" />
+          <img src={img2} alt="" className="md:(w-50 ml-30 h-full)" />
         </div>
 
         <div>
-          <img src={img4} alt="" className="w-50 h-full" />
+          <img src={img7} alt="" className="md:(w-50 ml-10 h-full)" />
         </div>
         <div>
-          <img src={img5} alt="" className="w-50 h-full" />
+          <img src={img6} alt="" className="md:(w-50 ml-30 h-full)" />
+        </div>
+
+        <div>
+          <img src={img4} alt="" className="md:(w-50 ml-10 h-full)" />
+        </div>
+        <div>
+          <img src={img5} alt="" className="md:(w-50 h-full)" />
         </div>
 
         <div>

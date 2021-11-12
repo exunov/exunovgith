@@ -46,19 +46,20 @@ function Mcyber() {
             </li>
             <li className="">
               <NavLink exact to="/cvm" activeClassName=" exactactive">
-                Continue Vulnerabilities<br/> Management
+                Continue Vulnerabilities
+                <br /> Management
               </NavLink>
             </li>
           </ul>
         </nav>
       </div>
 
-      <div className="">
+      <div className="md:(mt-8) mt-4">
         <div className="md:(px-50) text-justify">
-          <h1 className="text-xl text-amber-400 font-bold text-center p-4 md:(text-2xl)">
+          <h1 className="text-xl text-amber-400 font-bold text-center md:(text-2xl)">
             If you think mid-sized companies aren't targets,think again
           </h1>
-          <p className="px-4 text-sm md:(text-xl)">
+          <p className="px-4 mt-2 text-sm md:(text-xl)">
             Cyberattacks on large corporations and international businesses have
             become increasingly common in recent years. Private company and
             employee data and information are regularly the spoils of an attack,
@@ -84,7 +85,9 @@ function Mcyber() {
               <h1 className="text-2xl font-bold ">
                 Average time to identify and contain a breach
               </h1>
-              <p className="text-sm text-yellow-400 font-bold pt-4 md:(text-xl)">280 days</p>
+              <p className="text-sm text-yellow-400 font-bold pt-4 md:(text-xl)">
+                280 days
+              </p>
             </div>
             <div>
               <h1 className="text-2xl font-bold pt-4">

@@ -46,7 +46,7 @@ function Footer() {
 
           <div className="flex flex-row  md:(flex flex-row space-x-3)">
             <img src={env} alt="" className=" w-8" />
-            <p className=" font-semibold mt-2 text-sm md:(mt-2 text-xl) ">
+            <p className=" font-semibold mt-2 text-sm md:( text-xl) ">
               contact@exunov.com
             </p>
           </div>
